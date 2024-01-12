@@ -1,14 +1,23 @@
 <script>
+	import { page } from '$app/stores';
 </script>
 
 <!-- Navbar  -->
 <nav class="py-8 text-lg text-dark-blue flex">
 	<ul class="flex space-x-12 grow my-auto font-semibold">
 		<li>
-			<a href="/" class="hover:text-pastel-blue pb-2 duration-200">Home</a>
+			<a
+				href="/"
+				class="hover:text-pastel-blue pb-2 duration-200"
+				aria-current={$page.url.pathname === '/'}>Home</a
+			>
 		</li>
 		<li>
-			<a href="/about" class="hover:text-pastel-blue pb-2 duration-200">About</a>
+			<a
+				href="/about"
+				class="hover:text-pastel-blue pb-2 duration-200"
+				aria-current={$page.url.pathname === '/about'}>About</a
+			>
 		</li>
 	</ul>
 
@@ -16,22 +25,34 @@
 </nav>
 
 <style>
-	li {
+	a {
 		display: inline-block;
 	}
-	li:after {
+	a:after {
 		display: block;
 		content: '';
 		height: 7px;
 		background: #ffd984;
 		transform: scaleX(0);
 		transition: transform 250ms ease-in-out;
-		transition-duration: 200ms;
 		padding-bottom: 4%;
 		border-radius: 5px;
 	}
-	li:hover:after {
+	a:hover:after {
 		transform: scaleX(1);
 		transition-duration: 200ms;
+	}
+	a[aria-current='true'] {
+		color: #c7c7ff;
+	}
+
+	a[aria-current='true']:after {
+		display: block;
+		content: '';
+		height: 7px;
+		background: #ffd984;
+		transform: scaleX(1);
+		padding-bottom: 4%;
+		border-radius: 5px;
 	}
 </style>
