@@ -3,7 +3,7 @@
 	<div class="flex space-x-36">
 		<!-- email details  -->
 		<div class="flex my-auto space-x-5">
-			<img src="/images/mail.png" alt="mail icon" class="w-12 h-12 p-3 rounded-xl bg-pastel-red" />
+			<img src="/images/mail.png" alt="mail icon" class="w-12 h-12 p-3 rounded-xl bg-accent-one" />
 			<div>
 				<p class="text-md font-bold pb-1">Email</p>
 				<p class="text-md">info@raglobal.tn</p>
@@ -11,11 +11,7 @@
 		</div>
 		<!-- phone details  -->
 		<div class="flex my-auto space-x-5">
-			<img
-				src="/images/phone.png"
-				alt="mail icon"
-				class="w-12 h-12 p-3 rounded-xl bg-pastel-blue"
-			/>
+			<img src="/images/phone.png" alt="mail icon" class="w-12 h-12 p-3 rounded-xl bg-accent-two" />
 			<div>
 				<p class="text-md font-bold pb-1">Phone</p>
 				<p class="text-md">+216-48 063 544</p>

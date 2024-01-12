@@ -8,20 +8,20 @@
 		<li>
 			<a
 				href="/"
-				class="hover:text-pastel-blue pb-2 duration-200"
+				class="hover:text-accent-two pb-2 duration-200"
 				aria-current={$page.url.pathname === '/'}>Home</a
 			>
 		</li>
 		<li>
 			<a
 				href="/about"
-				class="hover:text-pastel-blue pb-2 duration-200"
+				class="hover:text-accent-two pb-2 duration-200"
 				aria-current={$page.url.pathname === '/about'}>About</a
 			>
 		</li>
 	</ul>
 
-	<button class=" bg-pastel-yellow rounded-full py-3 px-8">Enroll today</button>
+	<button class=" bg-accent-three rounded-full py-3 px-8">Enroll today</button>
 </nav>
 
 <style>

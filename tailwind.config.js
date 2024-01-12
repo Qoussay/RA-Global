@@ -7,9 +7,9 @@ export default {
 			beige: '#FFF9F1',
 			'dark-beige': '#e5ddd3',
 			'off-white': '#FFFDFA',
-			'pastel-red': '#FF9496',
-			'pastel-blue': '#C7C7FF',
-			'pastel-yellow': '#FFD984',
+			'accent-one': '#FF9496',
+			'accent-two': '#C7C7FF',
+			'accent-three': '#FFD984',
 			'dark-blue': '#000046'
 		},
 		extend: {}
