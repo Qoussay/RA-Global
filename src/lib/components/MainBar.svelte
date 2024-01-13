@@ -1,9 +1,14 @@
-<div class="py-8 flex justify-between border-b-2 border-dark-beige">
+<script>
+	import Mail from '~icons/ic/baseline-mail';
+	import Phone from '~icons/ic/baseline-local-phone';
+</script>
+
+<div class="py-8 flex justify-between border-b-2 border-off-soft-one">
 	<img src="/images/fullRed.png" alt="company logo" class="w-52" />
 	<div class="flex space-x-36">
 		<!-- email details  -->
 		<div class="flex my-auto space-x-5">
-			<img src="/images/mail.png" alt="mail icon" class="w-12 h-12 p-3 rounded-xl bg-accent-one" />
+			<Mail class="w-12 h-12 p-3 rounded-xl bg-accent-two text-soft-one" />
 			<div>
 				<p class="text-md font-bold pb-1">Email</p>
 				<p class="text-md">info@raglobal.tn</p>
@@ -11,7 +16,7 @@
 		</div>
 		<!-- phone details  -->
 		<div class="flex my-auto space-x-5">
-			<img src="/images/phone.png" alt="mail icon" class="w-12 h-12 p-3 rounded-xl bg-accent-two" />
+			<Phone class="w-12 h-12 p-3 rounded-xl bg-accent-two text-soft-one" />
 			<div>
 				<p class="text-md font-bold pb-1">Phone</p>
 				<p class="text-md">+216-48 063 544</p>

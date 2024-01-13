@@ -4,14 +4,20 @@ export default {
 	theme: {
 		colors: {
 			transparent: 'transparent',
+			white: '#fff',
 			beige: '#FFF9F1',
+			'accent-one': '#000046',
+			'accent-two': '#8E191B',
+			'accent-three': '#fbaf4d',
+			'accent-one-highlight': '#32326a',
+			'accent-two-highlight': '#a44648',
+			'accent-three-highlight': '#fbbf70',
+			'soft-one': '#e9efff',
+			'off-soft-one': '#DBE1F0',
+			'soft-two': '#FFFDFA',
+			'soft-three': '#f6f8ff',
+			'dark-grey': '#6f7597',
 			'dark-beige': '#e5ddd3',
-			'off-white': '#FFFDFA',
-			'off-accent-one': '#FFEDEE',
-			'accent-one': '#FF9496',
-			'accent-two': '#C7C7FF',
-			'accent-three': '#FFD984',
-			'dark-blue': '#000046',
 			green: '#84CC80'
 		},
 		extend: {}

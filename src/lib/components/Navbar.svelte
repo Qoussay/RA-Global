@@ -1,27 +1,36 @@
 <script>
 	import { page } from '$app/stores';
+
+	const routes = [
+		{
+			name: 'Home',
+			path: '/'
+		},
+		{
+			name: 'About',
+			path: '/about'
+		}
+	];
 </script>
 
 <!-- Navbar  -->
-<nav class="py-8 text-lg text-dark-blue flex">
+<nav class="py-8 text-lg text-accent-one flex">
 	<ul class="flex space-x-12 grow my-auto font-semibold">
-		<li>
-			<a
-				href="/"
-				class="hover:text-accent-two pb-2 duration-200"
-				aria-current={$page.url.pathname === '/'}>Home</a
-			>
-		</li>
-		<li>
-			<a
-				href="/about"
-				class="hover:text-accent-two pb-2 duration-200"
-				aria-current={$page.url.pathname === '/about'}>About</a
-			>
-		</li>
+		{#each routes as route}
+			<li>
+				<a
+					href={route.path}
+					class="hover:text-dark-grey pb-2 duration-200"
+					aria-current={$page.url.pathname === route.path}>{route.name}</a
+				>
+			</li>
+		{/each}
 	</ul>
 
-	<button class=" bg-accent-three rounded-full py-3 px-8">Enroll today</button>
+	<button
+		class=" bg-accent-three hover:bg-accent-three-highlight text-accent-one rounded-full py-3 px-8"
+		>Enroll today</button
+	>
 </nav>
 
 <style>
@@ -32,7 +41,7 @@
 		display: block;
 		content: '';
 		height: 7px;
-		background: #ffd984;
+		background: #fbaf4d;
 		transform: scaleX(0);
 		transition: transform 250ms ease-in-out;
 		padding-bottom: 4%;
@@ -43,14 +52,14 @@
 		transition-duration: 200ms;
 	}
 	a[aria-current='true'] {
-		color: #c7c7ff;
+		color: #6f7597;
 	}
 
 	a[aria-current='true']:after {
 		display: block;
 		content: '';
 		height: 7px;
-		background: #ffd984;
+		background: #fbaf4d;
 		transform: scaleX(1);
 		padding-bottom: 4%;
 		border-radius: 5px;
