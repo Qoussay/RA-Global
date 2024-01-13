@@ -4,6 +4,7 @@
 	import { text } from '@sveltejs/kit';
 	import CheckCircle from '~icons/tdesign/check-circle-filled';
 	import Certificate from '~icons/tabler/certificate';
+	import StudentTestimonyCard from '$lib/components/StudentTestimonyCard.svelte';
 
 	const servicesExpectations = [
 		'Tailored Scholarship Guidance',
@@ -12,6 +13,33 @@
 		'Application and Documentation Assistance',
 		'Career Path Counseling',
 		'Continuous Support'
+	];
+
+	const studentTestimonies = [
+		{
+			name: 'Karimene Turki',
+			image: 'karimene.jpg',
+			stars: 5,
+			quote:
+				'RA Global played a pivotal role in guiding me toward a scholarship that perfectly aligned with my academic goals. Their personalized approach and unwavering support made the entire process seamless and rewarding',
+			bgColor: 'bg-soft-one'
+		},
+		{
+			name: 'Adem Ghanmi',
+			image: 'adem.jpg',
+			stars: 5,
+			quote:
+				'Choosing RA Global was a game-changer for me. Their expertise not only secured me a spot in a prestigious Asian university but also opened doors to unique opportunities. Grateful for the tailored guidance that set my educational journey on the path to success.',
+			bgColor: 'bg-soft-two'
+		},
+		{
+			name: 'Shathe Khalouaoui',
+			image: 'shathe.jpg',
+			stars: 5,
+			quote:
+				'RA Global exceeded my expectations in every aspect. From helping me explore scholarship options to facilitating a smooth enrollment process, their commitment to my academic success was evident. I highly recommend their services to any student aspiring for excellence.',
+			bgColor: 'bg-soft-three'
+		}
 	];
 </script>
 
@@ -199,6 +227,22 @@
 					<Button text="Learn More" nav="/partnerships" />
 				</div>
 			</div>
+		</div>
+	</section>
+
+	<!-- testimonies section  -->
+	<section id="Testimonies" class="bg-accent-one-highlight py-36 px-24 text-white">
+		<h1 class=" text-6xl font-bold pb-10 pt-3 mx-auto text-center w-1/2">
+			See what students are saying about us
+		</h1>
+		<p class="text-2xl leading-relaxed w-1/2 mx-auto text-center">
+			Discover firsthand experiences shared by our students. Their stories illuminate the impact of
+			our educational services, shaping success stories in their academic journeys.
+		</p>
+		<div class="grid grid-cols-3 space-x-12 mt-24">
+			{#each studentTestimonies as t}
+				<StudentTestimonyCard testimony={t} />
+			{/each}
 		</div>
 	</section>
 </main>

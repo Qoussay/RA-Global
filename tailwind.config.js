@@ -5,6 +5,7 @@ export default {
 		colors: {
 			transparent: 'transparent',
 			white: '#fff',
+			black: '#000',
 			beige: '#FFF9F1',
 			'accent-one': '#000046',
 			'accent-two': '#8E191B',
