@@ -4,7 +4,7 @@
 	import Navbar from '$lib/components/Navbar.svelte';
 </script>
 
-<section id="navigation" class=" bg-soft-one px-56">
+<section id="navigation" class=" bg-base-100 px-56">
 	<MainBar />
 	<Navbar />
 </section>

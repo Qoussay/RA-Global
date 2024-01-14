@@ -6,22 +6,31 @@ export default {
 			transparent: 'transparent',
 			white: '#fff',
 			black: '#000',
-			beige: '#FFF9F1',
-			'accent-one': '#000046',
-			'accent-two': '#8E191B',
-			'accent-three': '#fbaf4d',
-			'accent-one-highlight': '#32326a',
-			'accent-two-highlight': '#a44648',
-			'accent-three-highlight': '#fbbf70',
-			'soft-one': '#e9efff',
-			'off-soft-one': '#DBE1F0',
-			'soft-two': '#FFFDFA',
-			'soft-three': '#f6f8ff',
-			'dark-grey': '#6f7597',
-			'dark-beige': '#e5ddd3',
-			green: '#84CC80'
+			'primary-highlight': '#32326a',
+			'secondary-highlight': '#a44648',
+			'accent-highlight': '#fbbf70',
+			'base-110': '#6f7597'
 		},
 		extend: {}
 	},
-	plugins: []
+	daisyui: {
+		themes: [
+			{
+				mytheme: {
+					primary: '#8e191b',
+					secondary: '#000046',
+					accent: '#fbaf4d',
+					neutral: '#000',
+					'base-100': '#e9efff',
+					'base-200': '#FFFDFA',
+					'base-300': '#f6f8ff',
+					info: '#bae6fd',
+					success: '#84cc80',
+					warning: '#fde047',
+					error: '#fda4af'
+				}
+			}
+		]
+	},
+	plugins: [require('daisyui')]
 };
