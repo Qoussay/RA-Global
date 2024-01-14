@@ -1,10 +1,11 @@
 <script>
 	import Mail from '~icons/ic/baseline-mail';
 	import Phone from '~icons/ic/baseline-local-phone';
+	import MenuIcon from '~icons/charm/menu-hamburger';
 </script>
 
 <div class="py-8 flex justify-between border-b-2 border-base-110">
-	<img src="/images/fullRed.png" alt="company logo" class="2xl:w-52 sm:w-36 w-52" />
+	<img src="/images/fullRed.png" alt="company logo" class="2xl:w-52 w-36" />
 	<div class="space-x-36 sm:flex hidden">
 		<!-- email details  -->
 		<div class="flex my-auto space-x-5">
@@ -27,19 +28,23 @@
 			</div>
 		</div>
 	</div>
-	<div class="drawer sm:hidden">
-		<input id="my-drawer" type="checkbox" class="drawer-toggle" />
-		<div class="drawer-content">
-			<!-- Page content here -->
-			<label for="my-drawer" class="btn btn-primary drawer-button">Open drawer</label>
-		</div>
-		<div class="drawer-side">
-			<label for="my-drawer" aria-label="close sidebar" class="drawer-overlay"></label>
-			<ul class="menu p-4 w-80 min-h-full bg-base-200 text-base-content">
-				<!-- Sidebar content here -->
-				<li><a>Sidebar Item 1</a></li>
-				<li><a>Sidebar Item 2</a></li>
-			</ul>
+	<div class=" sm:hidden">
+		<div class="drawer drawer-end h-full">
+			<input id="my-drawer" type="checkbox" class="drawer-toggle" />
+			<div class="drawer-content my-auto">
+				<!-- Page content here -->
+				<label for="my-drawer" class="">
+					<MenuIcon class="w-8 h-8 text-secondary drawer-button" />
+				</label>
+			</div>
+			<div class="drawer-side">
+				<label for="my-drawer" aria-label="close sidebar" class="drawer-overlay"></label>
+				<ul class="menu p-4 w-80 min-h-full bg-base-200 text-base-content">
+					<!-- Sidebar content here -->
+					<li><a>Sidebar Item 1</a></li>
+					<li><a>Sidebar Item 2</a></li>
+				</ul>
+			</div>
 		</div>
 	</div>
 </div>
