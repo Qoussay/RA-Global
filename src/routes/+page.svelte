@@ -79,7 +79,9 @@
 		<!-- left panel -->
 		<div class="w-1/2 ps-56">
 			<Pill text="Welcome to RA Global" />
-			<h1 class=" text-5xl 2xl:text-7xl font-bold pb-4 text-secondary leading-tight">
+			<h1
+				class=" text-5xl 2xl:text-7xl font-bold pb-4 text-secondary leading-tight 2xl:leading-snug"
+			>
 				Bridging Borders,<br />Fostering Futures
 			</h1>
 			<p class="text-lg 2xl:text-xl 2xl:w-3/4 2xl:leading-relaxed">
