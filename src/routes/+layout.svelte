@@ -6,9 +6,9 @@
 	import { routes } from '$lib/stores';
 	import MailIcon from '~icons/ic/baseline-mail';
 	import PhoneIcon from '~icons/ic/baseline-local-phone';
-	import FacebookIcon from '~icons/tabler/brand-facebook';
-	import InstagramIcon from '~icons/ph/instagram-logo';
-	import LinkedInIcon from '~icons/ph/linkedin-logo';
+	import FacebookIcon from '~icons/ic/round-facebook';
+	import InstagramIcon from '~icons/ri/instagram-fill';
+	import LinkedInIcon from '~icons/ion/logo-linkedin';
 
 	const facebookUrl = 'https://www.facebook.com/raglobal.tn';
 	const instagramUrl = 'https://www.instagram.com/raglobal.tn/';
@@ -70,7 +70,7 @@
 			<h1 class="text-secondary font-semibold text-2xl">Contact us</h1>
 			<!-- email details  -->
 			<div class="flex my-auto space-x-5 py-4">
-				<MailIcon class="w-12 h-12 p-3 rounded-xl bg-primary text-white" />
+				<MailIcon class="w-12 h-12 p-3 rounded-xl bg-primary-highlight text-white" />
 				<div>
 					<p class="text-md text-secondary font-bold pb-1">Email</p>
 					<p class="text-md">info@raglobal.tn</p>
@@ -78,7 +78,7 @@
 			</div>
 			<!-- phone details  -->
 			<div class="flex my-auto space-x-5 py-4">
-				<PhoneIcon class="w-12 h-12 p-3 rounded-xl bg-primary text-white" />
+				<PhoneIcon class="w-12 h-12 p-3 rounded-xl bg-primary-highlight text-white" />
 				<div>
 					<p class="text-md text-secondary font-bold pb-1">Phone</p>
 					<p class="text-md">+216-48 063 544</p>
