@@ -4,7 +4,7 @@
 </script>
 
 <!-- Navbar  -->
-<nav class="py-8 text-lg text-secondary flex">
+<nav class="py-8 2xl:text-lg text-md text-secondary flex">
 	<ul class="flex space-x-12 grow my-auto font-semibold">
 		{#each $routes as route}
 			<li>
@@ -17,7 +17,8 @@
 		{/each}
 	</ul>
 
-	<button class=" bg-accent hover:bg-accent-highlight text-secondary rounded-full py-3 px-8"
+	<button
+		class=" bg-accent hover:bg-accent-highlight text-secondary rounded-full 2xl:py-3 2xl:px-8 py-2 px-7"
 		>Enroll today</button
 	>
 </nav>
