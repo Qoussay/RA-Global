@@ -2,10 +2,11 @@
 	import Pill from '$lib/components/Pill.svelte';
 	import Button from '$lib/components/Button.svelte';
 	import FAQ from '$lib/components/FAQ.svelte';
+	import StudentTestimonyCard from '$lib/components/StudentTestimonyCard.svelte';
+	import { routes } from '$lib/stores';
 	import { text } from '@sveltejs/kit';
 	import CheckCircle from '~icons/tdesign/check-circle-filled';
 	import Certificate from '~icons/tabler/certificate';
-	import StudentTestimonyCard from '$lib/components/StudentTestimonyCard.svelte';
 
 	const servicesExpectations = [
 		'Tailored Scholarship Guidance',
@@ -232,7 +233,7 @@
 						to resonate with diverse audiences.
 					</p>
 					<img src="/images/partnerPhotoOne.png" alt="partner event" class="mt-12" />
-					<Button text="Learn More" nav="/partnerships" />
+					<Button text="Learn More" nav="/partners" />
 				</div>
 			</div>
 			<div class="w-1/2 flex flex-col space-y-24">
@@ -243,7 +244,7 @@
 						and diverse student body.
 					</p>
 					<img src="/images/partnerPhotoThree.png" alt="partner event" class="mt-12" />
-					<Button text="Learn More" nav="/partnerships" />
+					<Button text="Learn More" nav="/partners" />
 				</div>
 
 				<div class="bg-base-200 rounded-2xl p-12 text-xl shadow-lg">
@@ -253,14 +254,14 @@
 						meaningful connections between your institution and the North African community.
 					</p>
 					<img src="/images/partnerPhotoTwo.png" alt="partner event" class="mt-12" />
-					<Button text="Learn More" nav="/partnerships" />
+					<Button text="Learn More" nav="/partners" />
 				</div>
 			</div>
 		</div>
 	</section>
 
 	<!-- testimonies section  -->
-	<section id="Testimonies" class="bg-primary-highlight py-36 px-24 text-white">
+	<section id="Testimonies" class="bg-secondary-highlight py-36 px-24 text-white">
 		<h1 class=" text-6xl font-bold pb-10 pt-3 mx-auto text-center w-1/2">
 			See what students are saying about us
 		</h1>

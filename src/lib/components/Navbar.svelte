@@ -1,22 +1,12 @@
 <script>
 	import { page } from '$app/stores';
-
-	const routes = [
-		{
-			name: 'Home',
-			path: '/'
-		},
-		{
-			name: 'About',
-			path: '/about'
-		}
-	];
+	import { routes } from '$lib/stores';
 </script>
 
 <!-- Navbar  -->
 <nav class="py-8 text-lg text-secondary flex">
 	<ul class="flex space-x-12 grow my-auto font-semibold">
-		{#each routes as route}
+		{#each $routes as route}
 			<li>
 				<a
 					href={route.path}
