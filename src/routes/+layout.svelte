@@ -15,7 +15,7 @@
 	const linkedinUrl = 'https://www.linkedin.com/company/raglobaltn';
 </script>
 
-<section id="navigation" class=" bg-base-100 px-56">
+<section id="navigation" class=" bg-base-100 sm:px-56 px-4">
 	<MainBar />
 	<Navbar />
 </section>
