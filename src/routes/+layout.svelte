@@ -24,8 +24,8 @@
 
 <!-- brand logo section -->
 <section id="BrandLogo" class="bg-base-300 2xl:py-36 py-24">
-	<img src="/images/hatRed.png" alt="brand logo" class="2xl:w-80 w-44 mx-auto" />
-	<h1 class="font-bold 2xl:text-6xl text-4xl text-secondary text-center leading-tight mt-8">
+	<img src="/images/hatRed.png" alt="brand logo" class="2xl:w-64 w-44 mx-auto" />
+	<h1 class="font-bold 2xl:text-5xl text-4xl text-secondary text-center leading-tight mt-8">
 		Bridging Borders,<br />Fostering Futures
 	</h1>
 	<div class="mx-auto w-fit">

@@ -46,29 +46,29 @@
 
 	const faqArray = [
 		{
-			question: 'How can RA Global assist in finding the right scholarship?',
+			question: 'Q: How can RA Global assist in finding the right scholarship?',
 			answer:
-				'RA Global specializes in personalized guidance, tailoring scholarship searches to match your academic and career aspirations, ensuring you access opportunities that align with your goals.'
+				'A: RA Global specializes in personalized guidance, tailoring scholarship searches to match your academic and career aspirations, ensuring you access opportunities that align with your goals.'
 		},
 		{
-			question: 'What types of universities does RA Global collaborate with?',
+			question: 'Q: What types of universities does RA Global collaborate with?',
 			answer:
-				'We collaborate with a diverse range of universities across Asia, ensuring access to esteemed institutions that offer a variety of academic programs.'
+				'A: We collaborate with a diverse range of universities across Asia, ensuring access to esteemed institutions that offer a variety of academic programs.'
 		},
 		{
-			question: 'How does RA Global support the application process?',
+			question: 'Q: How does RA Global support the application process?',
 			answer:
-				'Our support extends from document preparation to application submission, ensuring a seamless process and maximizing your chances of successful admission.'
+				'A: Our support extends from document preparation to application submission, ensuring a seamless process and maximizing your chances of successful admission.'
 		},
 		{
-			question: 'What sets RA Global apart in student recruitment strategies?',
+			question: 'Q: What sets RA Global apart in student recruitment strategies?',
 			answer:
-				'RA Global employs targeted marketing, on-ground events, and strategic outreach to attract top-tier students, creating a robust and diverse student community for our partner universities.'
+				'A: RA Global employs targeted marketing, on-ground events, and strategic outreach to attract top-tier students, creating a robust and diverse student community for our partner universities.'
 		},
 		{
-			question: "Is there a cost for RA Global's application support services?",
+			question: "Q: Is there a cost for RA Global's application support services?",
 			answer:
-				"No, RA Global's application support services are entirely free of charge. Our commitment is to provide accessible and comprehensive assistance to students seeking educational opportunities."
+				"A: No, RA Global's application support services are entirely free of charge. Our commitment is to provide accessible and comprehensive assistance to students seeking educational opportunities."
 		}
 	];
 </script>
@@ -201,9 +201,7 @@
 					extraordinary journey toward academic excellence.
 				</p>
 				<!-- show this on large screens  -->
-				<div
-					class="bg-base-200 rounded-2xl p-12 mt-24 2xl:text-xl text-md shadow-lg relative hide-on-small"
-				>
+				<div class="bg-base-200 rounded-2xl p-12 mt-24 text-xl shadow-lg relative hidden 2xl:block">
 					<Certificate
 						class="2xl:w-12 2xl:h-12 w-10 h-10 p-2 rounded-2xl bg-primary text-white absolute 2xl:-top-6 -top-5 start-12 shadow-md"
 					/>
@@ -221,7 +219,7 @@
 			</div>
 		</div>
 		<!-- show this only on small screens  -->
-		<div class="bg-base-200 rounded-2xl p-12 mt-24 text-md shadow-lg relative show-on-small">
+		<div class="bg-base-200 rounded-2xl p-12 mt-24 text-md shadow-lg relative 2xl:hidden">
 			<Certificate
 				class="w-10 h-10 p-2 rounded-2xl bg-primary text-white absolute  -top-5 start-12 shadow-md"
 			/>
@@ -242,54 +240,66 @@
 
 	<!-- what we offer our partners section  -->
 	<section id="Partnerships" class="bg-base-300 px-56 py-24">
-		<Pill text="Strategic Academic Partnerships" />
-		<h1 class=" text-4xl 2xl:text-5xl font-bold pb-10 pt-3 text-secondary w-1/2">
-			Elevating Asian Universities in North Africa
-		</h1>
-		<p class="2xl:text-xl text-lg leading-relaxed w-1/2">
-			We offer dynamic partnerships to leading Asian universities, enhancing their influence in the
-			vibrant North African market. From tailored marketing strategies to impactful on-ground
-			events, we navigate the educational landscape, redefining academic success together with our
-			partners.
-		</p>
-		<div class="flex 2xl:space-x-24 space-x-12 2xl:-mt-12 -mt-36">
-			<div class="w-1/2 flex flex-col justify-center">
-				<div class="bg-base-100 rounded-2xl p-12 shadow-lg">
-					<h1 class="text-secondary font-semibold mb-4 text-3xl 2xl:text-4xl">
-						Tailored Marketing Strategies
-					</h1>
-					<p class="2xl:text-xl text-lg leading-relaxed">
-						Elevate your university's brand in North Africa with customized marketing plans designed
-						to resonate with diverse audiences.
-					</p>
-					<img src="/images/partnerPhotoOne.png" alt="partner event" class="2xl:mt-12 mt-8" />
-					<Button text="Learn More" nav="/partners" />
-				</div>
+		<div class="flex">
+			<div class="w-1/2">
+				<Pill text="Strategic Academic Partnerships" />
+				<h1 class=" text-4xl 2xl:text-5xl font-bold pb-10 pt-3 text-secondary">
+					Elevating Asian Universities in North Africa
+				</h1>
+				<p class="2xl:text-xl text-lg leading-relaxed">
+					We offer dynamic partnerships to leading Asian universities, enhancing their influence in
+					the vibrant North African market. From tailored marketing strategies to impactful
+					on-ground events, we navigate the educational landscape, redefining academic success
+					together with our partners.
+				</p>
 			</div>
-			<div class="w-1/2 flex flex-col 2xl:space-y-24 space-y-12">
-				<div class="bg-base-200 rounded-2xl p-12 shadow-lg">
-					<h1 class="text-secondary font-semibold mb-4 text-3xl 2xl:text-4xl">
-						Strategic Student Recruitment
-					</h1>
-					<p class="2xl:text-xl text-lg leading-relaxed">
-						Harness our expertise to attract top-tier students to your programs, ensuring a robust
-						and diverse student body.
-					</p>
-					<img src="/images/partnerPhotoThree.png" alt="partner event" class="2xl:mt-12 mt-8" />
-					<Button text="Learn More" nav="/partners" />
-				</div>
+			<div class="bg-base-200 rounded-2xl p-12 w-1/2 shadow-l 2xl:hidden ms-12">
+				<h1 class="text-secondary font-semibold mb-4 text-3xl 2xl:text-4xl">
+					Impactful On-Ground Events
+				</h1>
+				<p class="2xl:text-xl text-lg leading-relaxed">
+					Create a lasting impression through our meticulously planned on-ground events, fostering
+					meaningful connections between your institution and the North African community.
+				</p>
+				<img src="/images/partnerPhotoTwo.png" alt="partner event" class="2xl:mt-12 mt-8" />
+				<Button text="Learn More" nav="/partners" />
+			</div>
+		</div>
+		<div class="grid grid-cols-2 2xl:grid-cols-3 mt-12 gap-12">
+			<div class="bg-base-200 rounded-2xl p-12 shadow-lg">
+				<h1 class="text-secondary font-semibold mb-4 text-3xl 2xl:text-4xl">
+					Strategic Student Recruitment
+				</h1>
+				<p class="2xl:text-xl text-lg leading-relaxed">
+					Harness our expertise to attract top-tier students to your programs, ensuring a robust and
+					diverse student body.
+				</p>
+				<img src="/images/partnerPhotoThree.png" alt="partner event" class="2xl:mt-12 mt-8" />
+				<Button text="Learn More" nav="/partners" />
+			</div>
 
-				<div class="bg-base-200 rounded-2xl p-12 shadow-lg">
-					<h1 class="text-secondary font-semibold mb-4 text-3xl 2xl:text-4xl">
-						Impactful On-Ground Events
-					</h1>
-					<p class="2xl:text-xl text-lg leading-relaxed">
-						Create a lasting impression through our meticulously planned on-ground events, fostering
-						meaningful connections between your institution and the North African community.
-					</p>
-					<img src="/images/partnerPhotoTwo.png" alt="partner event" class="2xl:mt-12 mt-8" />
-					<Button text="Learn More" nav="/partners" />
-				</div>
+			<div class="bg-base-100 rounded-2xl p-12 shadow-lg">
+				<h1 class="text-secondary font-semibold mb-4 text-3xl 2xl:text-4xl">
+					Tailored Marketing Strategies
+				</h1>
+				<p class="2xl:text-xl text-lg leading-relaxed">
+					Elevate your university's brand in North Africa with customized marketing plans designed
+					to resonate with diverse audiences.
+				</p>
+				<img src="/images/partnerPhotoOne.png" alt="partner event" class="2xl:mt-12 mt-8" />
+				<Button text="Learn More" nav="/partners" />
+			</div>
+
+			<div class="bg-base-200 rounded-2xl p-12 shadow-l 2xl:block hidden">
+				<h1 class="text-secondary font-semibold mb-4 text-3xl 2xl:text-4xl">
+					Impactful On-Ground Events
+				</h1>
+				<p class="2xl:text-xl text-lg leading-relaxed">
+					Create a lasting impression through our meticulously planned on-ground events, fostering
+					meaningful connections between your institution and the North African community.
+				</p>
+				<img src="/images/partnerPhotoTwo.png" alt="partner event" class="2xl:mt-12 mt-8" />
+				<Button text="Learn More" nav="/partners" />
 			</div>
 		</div>
 	</section>
@@ -329,16 +339,5 @@
 <style>
 	#Hero {
 		background: linear-gradient(to bottom, #e9efff 0%, #e9efff 90%, #fffdfa 100%);
-	}
-
-	@media (max-width: 1536px) {
-		.hide-on-small {
-			display: none;
-		}
-	}
-	@media (min-width: 1536px) {
-		.show-on-small {
-			display: none;
-		}
 	}
 </style>
