@@ -5,7 +5,7 @@
 	import MenuIcon from '~icons/charm/menu-hamburger';
 </script>
 
-<div class="py-8 flex justify-between border-b-2 border-base-110">
+<div class="py-8 flex justify-between sm:border-b-2 sm:border-base-110">
 	<img src="/images/fullRed.png" alt="company logo" class="2xl:w-52 w-36" />
 	<div class="space-x-36 sm:flex hidden">
 		<!-- email details  -->
@@ -40,7 +40,7 @@
 			</div>
 			<div class="drawer-side">
 				<label for="my-drawer" aria-label="close sidebar" class="drawer-overlay"></label>
-				<ul class="menu p-0 w-80 min-h-full bg-base-200 text-base-content">
+				<ul class="menu p-0 w-80 min-h-full bg-base-110 shadow:lg text-base-content">
 					<!-- Sidebar content here -->
 					<Navbar />
 				</ul>
