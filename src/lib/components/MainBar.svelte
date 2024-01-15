@@ -38,7 +38,7 @@
 					<MenuIcon class="w-8 h-8 text-secondary drawer-button" />
 				</label>
 			</div>
-			<div class="drawer-side">
+			<div class="drawer-side z-20">
 				<label for="my-drawer" aria-label="close sidebar" class="drawer-overlay"></label>
 				<ul class="menu p-0 w-80 min-h-full bg-base-110 shadow:lg text-base-content">
 					<!-- Sidebar content here -->
