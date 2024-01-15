@@ -58,4 +58,10 @@
 			border-radius: 5px;
 		}
 	}
+
+	@media (max-width: 640px) {
+		a[aria-current='true'] {
+			color: #000046;
+		}
+	}
 </style>
