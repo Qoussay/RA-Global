@@ -73,14 +73,17 @@
 	];
 </script>
 
-<main id="homePage" class="hidden">
+<main id="homePage">
 	<!-- hero section -->
-	<section id="Hero" class=" flex pt-4 pb-24">
+	<section
+		id="Hero"
+		class=" flex sm:flex-row flex-col space-y-12 sm:space-y-0 pt-4 pb-24 text-center sm:text-left px-6 sm:px-0"
+	>
 		<!-- left panel -->
-		<div class="w-1/2 ps-56">
+		<div class="sm:w-1/2 sm:ps-56">
 			<Pill text="Welcome to RA Global" />
 			<h1
-				class=" text-5xl 2xl:text-7xl font-bold pb-4 text-secondary leading-tight 2xl:leading-snug"
+				class=" text-4xl sm:text-5xl 2xl:text-7xl font-bold pb-4 text-secondary leading-tight 2xl:leading-snug"
 			>
 				Bridging Borders,<br />Fostering Futures
 			</h1>
@@ -92,13 +95,13 @@
 			<Button text="Enroll today" nav="/contact" />
 		</div>
 		<!-- right panel  -->
-		<div class="w-1/2 my-auto pe-32">
+		<div class="sm:w-1/2 sm:my-auto sm:pe-32 mx-auto sm:mx-0">
 			<img src="/images/hero.png" alt="hero" class="w-full" />
 		</div>
 	</section>
 
 	<!-- services section  -->
-	<section id="Services" class="bg-base-200 px-56 py-20">
+	<section id="Services" class="bg-base-200 px-56 py-20 hidden">
 		<h1
 			class=" text-center 2xl:text-5xl text-4xl w-3/4 mx-auto leading-normal 2xl:leading-relaxed text-secondary font-bold 2xl:mb-12 mb-8"
 		>
@@ -176,7 +179,7 @@
 	</section>
 
 	<!-- meet the team section  -->
-	<section id="Team" class="bg-base-300 px-56 py-24">
+	<section id="Team" class="bg-base-300 px-56 py-24 hidden">
 		<div class="flex 2xl:space-x-24 space-x-12">
 			<!-- qoussay photo -->
 			<div class="w-1/4 text-center">
@@ -239,7 +242,7 @@
 	</section>
 
 	<!-- what we offer our partners section  -->
-	<section id="Partnerships" class="bg-base-300 px-56 py-24">
+	<section id="Partnerships" class="bg-base-300 px-56 py-24 hidden">
 		<div class="flex">
 			<div class="w-1/2">
 				<Pill text="Strategic Academic Partnerships" />
@@ -305,7 +308,7 @@
 	</section>
 
 	<!-- testimonies section  -->
-	<section id="Testimonies" class="bg-secondary-highlight 2xl:py-36 py-24 px-24 text-white">
+	<section id="Testimonies" class="bg-secondary-highlight 2xl:py-36 py-24 px-24 text-white hidden">
 		<h1 class=" text-4xl 2xl:text-5xl font-bold pb-10 pt-3 mx-auto text-center w-1/2">
 			See what students are saying about us
 		</h1>
@@ -321,7 +324,7 @@
 	</section>
 
 	<!-- Frequently Asked Questions -->
-	<section id="FAQ" class="bg-base-200 py-36 2xl:px-96 px-64">
+	<section id="FAQ" class="bg-base-200 py-36 2xl:px-96 px-64 hidden">
 		<h1 class=" text-4xl 2xl:text-5xl font-bold pb-10 pt-3 text-secondary">
 			Frequently asked questions
 		</h1>
