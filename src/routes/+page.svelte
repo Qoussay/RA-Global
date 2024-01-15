@@ -81,13 +81,15 @@
 	>
 		<!-- left panel -->
 		<div class="sm:w-1/2 sm:ps-56">
-			<Pill text="Welcome to RA Global" />
+			<div class="sm:block flex justify-center">
+				<Pill text="Welcome to RA Global" />
+			</div>
 			<h1
 				class=" text-4xl sm:text-5xl 2xl:text-7xl font-bold pb-4 text-secondary leading-tight 2xl:leading-snug"
 			>
 				Bridging Borders,<br />Fostering Futures
 			</h1>
-			<p class="text-lg 2xl:text-xl 2xl:w-3/4 2xl:leading-relaxed">
+			<p class=" text-md sm:text-lg 2xl:text-xl 2xl:w-3/4 2xl:leading-relaxed">
 				RA Global leads North Africa in connecting students to educational opportunities in Asia. As
 				the key link between these regions, we provide personalized education, emphasizing
 				individual strengths and fostering academic excellence.
@@ -101,56 +103,86 @@
 	</section>
 
 	<!-- services section  -->
-	<section id="Services" class="bg-base-200 px-56 py-20 hidden">
+	<section id="Services" class="bg-base-200 sm:px-56 py-20">
 		<h1
-			class=" text-center 2xl:text-5xl text-4xl w-3/4 mx-auto leading-normal 2xl:leading-relaxed text-secondary font-bold 2xl:mb-12 mb-8"
+			class=" text-center 2xl:text-5xl sm:text-4xl text-2xl w-3/4 mx-auto leading-normal 2xl:leading-relaxed text-secondary font-bold 2xl:mb-12 mb-8"
 		>
 			Empowering Your Academic Journey with Expert Guidance and Opportunities.
 		</h1>
-		<p class=" 2xl:text-xl text-lg 2xl:w-1/2 w-3/4 mx-auto text-center 2xl:leading-relaxed">
+		<p
+			class=" 2xl:text-xl sm:text-lg text-md 2xl:w-1/2 w-3/4 mx-auto text-center 2xl:leading-relaxed"
+		>
 			We are your partners in academic excellence, offering personalized services to connect you
 			with tailored scholarship and educational opportunities. Our commitment is to guide you
 			through the process, ensuring you access meaningful learning experiences on your journey to
 			success.
 		</p>
-		<!-- first row  -->
-		<div class="flex justify-between mt-24">
-			<div class="flex space-x-3 2xl:space-x-4">
-				<CheckCircle class="2xl:w-8 2xl:h-8 w-7 h-7 text-success" />
-				<p class="text-lg 2xl:text-xl font-medium">Tailored Guidance</p>
+		<!-- display this on large screens  -->
+		<div class="hidden sm:block 2xl:px-36 px-12">
+			<!-- first row  -->
+			<div class="flex justify-between mt-24">
+				<div class="flex space-x-3 2xl:space-x-4">
+					<CheckCircle class="2xl:w-8 2xl:h-8 w-7 h-7 text-success" />
+					<p class="text-lg 2xl:text-xl font-medium">Tailored Guidance</p>
+				</div>
+				<div class="flex space-x-3 2xl:space-x-4">
+					<CheckCircle class="2xl:w-8 2xl:h-8 w-7 h-7 text-success" />
+					<p class="text-lg 2xl:text-xl font-medium">Individualized Attention</p>
+				</div>
+				<div class="flex space-x-3 2xl:space-x-4">
+					<CheckCircle class="2xl:w-8 2xl:h-8 w-7 h-7 text-success" />
+					<p class="text-lg 2xl:text-xl font-medium">Specialized Programs</p>
+				</div>
 			</div>
-			<div class="flex space-x-3 2xl:space-x-4">
-				<CheckCircle class="2xl:w-8 2xl:h-8 w-7 h-7 text-success" />
-				<p class="text-lg 2xl:text-xl font-medium">Individualized Attention</p>
-			</div>
-			<div class="flex space-x-3 2xl:space-x-4">
-				<CheckCircle class="2xl:w-8 2xl:h-8 w-7 h-7 text-success" />
-				<p class="text-lg 2xl:text-xl font-medium">Specialized Programs</p>
+			<!-- second row  -->
+			<div class="flex justify-between mt-6 2xl:mt-12">
+				<div class="flex space-x-3 2xl:space-x-4 mx-auto">
+					<CheckCircle class="2xl:w-8 2xl:h-8 w-7 h-7 text-success" />
+					<p class="text-lg 2xl:text-xl font-medium">Inclusive Community</p>
+				</div>
+				<div class="flex space-x-3 2xl:space-x-4 mx-auto">
+					<CheckCircle class="2xl:w-8 2xl:h-8 w-7 h-7 text-success" />
+					<p class="text-lg 2xl:text-xl font-medium">Seasoned Professionals</p>
+				</div>
 			</div>
 		</div>
-		<!-- second row  -->
-		<div class="flex justify-between mt-6 2xl:mt-12">
-			<div class="flex space-x-3 2xl:space-x-4 mx-auto">
-				<CheckCircle class="2xl:w-8 2xl:h-8 w-7 h-7 text-success" />
-				<p class="text-lg 2xl:text-xl font-medium">Inclusive Community</p>
+		<!-- display this on mobile screens  -->
+		<div class="sm:hidden px-8 pt-8 flex-col flex space-y-4">
+			<div class="flex space-x-3 mx-auto">
+				<CheckCircle class="w-5 h-5 text-success my-auto" />
+				<p class="text-md font-medium">Tailored Guidance</p>
 			</div>
-			<div class="flex space-x-3 2xl:space-x-4 mx-auto">
-				<CheckCircle class="2xl:w-8 2xl:h-8 w-7 h-7 text-success" />
-				<p class="text-lg 2xl:text-xl font-medium">Seasoned Professionals</p>
+			<div class="flex space-x-3 mx-auto">
+				<CheckCircle class="w-5 h-5 text-success my-auto" />
+				<p class="text-md font-medium">Individualized Attention</p>
+			</div>
+			<div class="flex space-x-3 mx-auto">
+				<CheckCircle class="w-5 h-5 text-success my-auto" />
+				<p class="text-md font-medium">Specialized Programs</p>
+			</div>
+			<div class="flex space-x-3 mx-auto">
+				<CheckCircle class="w-5 h-5 text-success my-auto" />
+				<p class="text-md font-medium">Inclusive Community</p>
+			</div>
+			<div class="flex space-x-3 mx-auto">
+				<CheckCircle class="w-5 h-5 text-success my-auto" />
+				<p class="text-md font-medium">Seasoned Professionals</p>
 			</div>
 		</div>
 
 		<!-- service one  -->
-		<div class="flex pt-24">
-			<div class="w-1/2">
-				<img src="/images/serviceOne.png" alt="service one" class="w-3/4" />
+		<div class="flex sm:flex-row flex-col pt-24">
+			<div class="sm:w-1/2 mb-4 sm:mb-0">
+				<img src="/images/serviceOne.png" alt="service one" class="w-3/4 mx-auto sm:mx-0" />
 			</div>
-			<div class="w-1/2 flex flex-col justify-center">
+			<div class="sm:w-1/2 px-8 sm:px-0 flex flex-col justify-center">
 				<Pill text="Unlocking Educational Paths" />
-				<h1 class="text-4xl 2xl:text-5xl font-bold 2xl:mb-12 mb-6 2xl:mt-4 mt-2 text-secondary">
+				<h1
+					class="2xl:text-5xl sm:text-4xl text-2xl font-bold 2xl:mb-12 mb-6 2xl:mt-4 mt-2 text-secondary"
+				>
 					Scholarship Opportunities
 				</h1>
-				<p class="2xl:text-xl text-lg leading-relaxed">
+				<p class="2xl:text-xl sm:text-lg text-md leading-relaxed">
 					Our mission is to guide you through a personalized approach, connecting you with diverse
 					scholarship and educational opportunities tailored to your aspirations.
 				</p>
@@ -159,21 +191,23 @@
 		</div>
 
 		<!-- service two  -->
-		<div class="flex 2xl:mt-4 mt-16">
-			<div class="w-1/2 flex flex-col justify-center">
+		<div class="flex sm:flex-row flex-col-reverse 2xl:mt-4 sm:mt-16 mt-24">
+			<div class="sm:w-1/2 px-8 sm:px-0 flex flex-col justify-center">
 				<Pill text="Your Educational Haven" />
-				<h1 class="text-4xl 2xl:text-5xl font-bold 2xl:mb-12 mb-6 2xl:mt-4 mt-2 text-secondary">
+				<h1
+					class="2xl:text-5xl sm:text-4xl text-2xl font-bold 2xl:mb-12 mb-6 2xl:mt-4 mt-2 text-secondary"
+				>
 					Gateway to Academic Success
 				</h1>
-				<p class="2xl:text-xl text-lg leading-relaxed">
+				<p class="2xl:text-xl sm:text-lg text-md leading-relaxed">
 					We specialize in forging connections with esteemed universities, providing you access to
 					state-of-the-art educational programs. Our expert guidance and tailored support propel you
 					towards a future of unparalleled educational achievement.
 				</p>
 				<Button text="Learn more" nav="/about" />
 			</div>
-			<div class="w-1/2">
-				<img src="/images/serviceTwo.png" alt="service two" class="w-3/4 ms-auto" />
+			<div class="sm:w-1/2 mb-4 sm:mb-0">
+				<img src="/images/serviceTwo.png" alt="service two" class="w-3/4 sm:ms-auto mx-auto" />
 			</div>
 		</div>
 	</section>
