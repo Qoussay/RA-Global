@@ -1,4 +1,5 @@
 <script>
+	import Navbar from './Navbar.svelte';
 	import Mail from '~icons/ic/baseline-mail';
 	import Phone from '~icons/ic/baseline-local-phone';
 	import MenuIcon from '~icons/charm/menu-hamburger';
@@ -39,12 +40,15 @@
 			</div>
 			<div class="drawer-side">
 				<label for="my-drawer" aria-label="close sidebar" class="drawer-overlay"></label>
-				<ul class="menu p-4 w-80 min-h-full bg-base-200 text-base-content">
+				<ul class="menu p-0 w-80 min-h-full bg-base-200 text-base-content">
 					<!-- Sidebar content here -->
-					<li><a>Sidebar Item 1</a></li>
-					<li><a>Sidebar Item 2</a></li>
+					<Navbar />
 				</ul>
 			</div>
 		</div>
 	</div>
+</div>
+
+<div class="hidden sm:block">
+	<Navbar />
 </div>

@@ -4,13 +4,13 @@
 </script>
 
 <!-- Navbar  -->
-<nav class="py-8 2xl:text-lg text-md text-secondary flex">
-	<ul class="flex space-x-12 grow my-auto font-semibold">
+<nav class="py-8 2xl:text-lg text-md text-secondary flex sm:flex-row flex-col">
+	<ul class="sm:flex-row flex flex-col sm:space-x-12 grow my-auto font-semibold">
 		{#each $routes as route}
 			<li>
 				<a
 					href={route.path}
-					class="hover:text-base-110 pb-2 duration-200"
+					class="hover:text-base-110 pb-2 duration-200 mx-auto"
 					aria-current={$page.url.pathname === route.path}>{route.name}</a
 				>
 			</li>
@@ -24,34 +24,36 @@
 </nav>
 
 <style>
-	a {
-		display: inline-block;
-	}
-	a:after {
-		display: block;
-		content: '';
-		height: 7px;
-		background: #fbaf4d;
-		transform: scaleX(0);
-		transition: transform 250ms ease-in-out;
-		padding-bottom: 4%;
-		border-radius: 5px;
-	}
-	a:hover:after {
-		transform: scaleX(1);
-		transition-duration: 200ms;
-	}
-	a[aria-current='true'] {
-		color: #6f7597;
-	}
+	@media (min-width: 640px) {
+		a {
+			display: inline-block;
+		}
+		a:after {
+			display: block;
+			content: '';
+			height: 7px;
+			background: #fbaf4d;
+			transform: scaleX(0);
+			transition: transform 250ms ease-in-out;
+			padding-bottom: 4%;
+			border-radius: 5px;
+		}
+		a:hover:after {
+			transform: scaleX(1);
+			transition-duration: 200ms;
+		}
+		a[aria-current='true'] {
+			color: #6f7597;
+		}
 
-	a[aria-current='true']:after {
-		display: block;
-		content: '';
-		height: 7px;
-		background: #fbaf4d;
-		transform: scaleX(1);
-		padding-bottom: 4%;
-		border-radius: 5px;
+		a[aria-current='true']:after {
+			display: block;
+			content: '';
+			height: 7px;
+			background: #fbaf4d;
+			transform: scaleX(1);
+			padding-bottom: 4%;
+			border-radius: 5px;
+		}
 	}
 </style>

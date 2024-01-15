@@ -17,13 +17,13 @@
 
 <section id="navigation" class=" bg-base-100 sm:px-56 px-4">
 	<MainBar />
-	<Navbar />
+	<!-- <Navbar /> -->
 </section>
 
 <slot />
 
 <!-- brand logo section -->
-<section id="BrandLogo" class="bg-base-300 2xl:py-36 py-24">
+<section id="BrandLogo" class="bg-base-300 2xl:py-36 py-24 hidden">
 	<img src="/images/hatRed.png" alt="brand logo" class="2xl:w-64 w-44 mx-auto" />
 	<h1 class="font-bold 2xl:text-5xl text-4xl text-secondary text-center leading-tight mt-8">
 		Bridging Borders,<br />Fostering Futures
@@ -34,7 +34,7 @@
 </section>
 
 <!-- footer  -->
-<footer class="bg-base-200 2xl:pt-24 pt-12 pb-12 px-12 font-medium">
+<footer class="bg-base-200 2xl:pt-24 pt-12 pb-12 px-12 font-medium hidden">
 	<div class="grid grid-cols-4">
 		<!-- brand logo and social links  -->
 		<div class="col-start-1 col-span-2">
