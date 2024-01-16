@@ -4,10 +4,10 @@
 	export let type;
 </script>
 
-<div class="flex flex-row my-auto space-x-2">
+<div class="flex flex-row my-auto space-x-4">
 	{#if type === 'email'}
 		<MailIcon
-			class="xl:h-12 xl:w-12 w-10 h-10 p-3 rounded-xl bg-primary-highlight text-white my-auto"
+			class="w-10 xl:w-12 h-10 xl:h-12 p-3 rounded-2xl bg-primary-highlight text-white my-auto"
 		/>
 		<div>
 			<p class="text-sm xl:text-base font-bold text-secondary">Email</p>
@@ -15,7 +15,7 @@
 		</div>
 	{:else if type === 'phone'}
 		<PhoneIcon
-			class="xl:h-12 xl:w-12 w-10 h-10 p-3 rounded-xl bg-secondary-highlight text-white my-auto"
+			class="w-10 xl:w-12 h-10 xl:h-12 p-3 rounded-2xl bg-secondary-highlight text-white my-auto"
 		/>
 		<div>
 			<p class="text-sm xl:text-base font-bold text-secondary">Phone</p>

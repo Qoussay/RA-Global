@@ -3,7 +3,6 @@
 	import Button from '$lib/components/Button.svelte';
 	import FAQ from '$lib/components/FAQ.svelte';
 	import StudentTestimonyCard from '$lib/components/StudentTestimonyCard.svelte';
-	import { routes } from '$lib/stores';
 	import { text } from '@sveltejs/kit';
 	import CheckCircle from '~icons/tdesign/check-circle-filled';
 	import Certificate from '~icons/tabler/certificate';
@@ -73,6 +72,7 @@
 	];
 </script>
 
+<h1>Home page</h1>
 <main id="homePage" class="hidden">
 	<!-- hero section -->
 	<section
