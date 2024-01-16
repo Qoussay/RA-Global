@@ -73,7 +73,7 @@
 	];
 </script>
 
-<main id="homePage">
+<main id="homePage" class="hidden">
 	<!-- hero section -->
 	<section
 		id="Hero"

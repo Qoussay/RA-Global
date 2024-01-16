@@ -1,6 +1,5 @@
 <script>
 	import '../app.css';
-	import MainBar from '$lib/components/MainBar.svelte';
 	import Navbar from '$lib/components/Navbar.svelte';
 	import Button from '$lib/components/Button.svelte';
 	import { routes } from '$lib/stores';
@@ -15,10 +14,7 @@
 	const linkedinUrl = 'https://www.linkedin.com/company/raglobaltn';
 </script>
 
-<section id="navigation" class=" bg-base-100 sm:px-56 px-4">
-	<MainBar />
-	<!-- <Navbar /> -->
-</section>
+<Navbar />
 
 <slot />
 
@@ -64,12 +60,12 @@
 		<!-- site link  -->
 		<div>
 			<h1 class="text-secondary font-semibold 2xl:text-2xl text-lg">Site Links</h1>
-			{#each $routes as r}
+			<!-- {#each $routes as r}
 				<a
 					class="block 2xl:text-lg text-md 2xl:py-3 py-2 border-b-2 border-b-neutral last:border-b-0 w-3/4 hover:text-base-110"
 					href={r.path}>{r.name}</a
 				>
-			{/each}
+			{/each} -->
 		</div>
 		<!-- contact us details  -->
 		<div>

@@ -1,0 +1,25 @@
+<script>
+	import PhoneIcon from '~icons/ic/baseline-local-phone';
+	import MailIcon from '~icons/ic/baseline-mail';
+	export let type;
+</script>
+
+<div class="flex flex-row my-auto space-x-2">
+	{#if type === 'email'}
+		<MailIcon
+			class="xl:h-12 xl:w-12 w-10 h-10 p-3 rounded-xl bg-primary-highlight text-white my-auto"
+		/>
+		<div>
+			<p class="text-sm xl:text-base font-bold text-secondary">Email</p>
+			<p class="text-sm xl:text-base">info@raglobal.tn</p>
+		</div>
+	{:else if type === 'phone'}
+		<PhoneIcon
+			class="xl:h-12 xl:w-12 w-10 h-10 p-3 rounded-xl bg-secondary-highlight text-white my-auto"
+		/>
+		<div>
+			<p class="text-sm xl:text-base font-bold text-secondary">Phone</p>
+			<p class="text-sm xl:text-base">+216-48 063 544</p>
+		</div>
+	{/if}
+</div>
