@@ -3,7 +3,7 @@
 	import Pill from './Pill.svelte';
 </script>
 
-<section id="PartnerServices" class="py-20">
+<section id="PartnerServices" class="py-20 bg-base-300">
 	<div class="max-w-[100rem] px-8 mx-auto flex flex-col">
 		<!-- general idea  -->
 		<div class="flex flex-col text-center w-full lg:w-3/4 mx-auto">
@@ -69,7 +69,4 @@
 </section>
 
 <style>
-	#PartnerServices {
-		background: linear-gradient(to bottom, #f3f0ed 0%, #f3f0ed 80%, #fff6eb 100%);
-	}
 </style>

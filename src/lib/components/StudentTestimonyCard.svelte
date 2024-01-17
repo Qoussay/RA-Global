@@ -3,17 +3,17 @@
 	export let testimony;
 </script>
 
-<div class="{testimony.bgColor} text-black p-8 rounded-xl">
+<div class="{testimony.bgColor} p-8 rounded-xl text-center md:text-left">
 	<img
 		src="/images/students/{testimony.image}"
-		class="w-20 h-20 rounded-full border-primary border-4"
+		class="w-20 h-20 rounded-full border-accent border-2 mx-auto md:mx-0"
 		alt="student profile"
 	/>
-	<h1 class="2xl:text-xl text-lg font-medium pt-4">{testimony.name}</h1>
-	<div class="flex space-x-1 mt-2">
+	<h1 class="text-lg xl:text-xl font-semibold text-secondary mt-4">{testimony.name}</h1>
+	<div class="flex space-x-1 mt-2 justify-center md:justify-start">
 		{#each Array(testimony.stars) as _, i}
 			<Star class="2xl:w-5 2xl:h-5 w-4 h-4 text-accent" />
 		{/each}
 	</div>
-	<p class="2xl:text-lg text-md leading-relaxed mt-8">"{testimony.quote}"</p>
+	<p class="text-md leading-relaxed xl:text-lg/relaxed mt-6 font-medium">"{testimony.quote}"</p>
 </div>
