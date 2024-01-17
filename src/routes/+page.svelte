@@ -2,6 +2,7 @@
 	import Hero from '$lib/components/Hero.svelte';
 	import Services from '$lib/components/Services.svelte';
 	import Team from '$lib/components/Team.svelte';
+	import PartnerServices from '$lib/components/PartnerServices.svelte';
 	import Pill from '$lib/components/Pill.svelte';
 	import Button from '$lib/components/Button.svelte';
 	import FAQ from '$lib/components/FAQ.svelte';
@@ -68,6 +69,7 @@
 	<Hero />
 	<Services />
 	<Team />
+	<PartnerServices />
 </main>
 
 <main id="homePage" class="hidden">

@@ -38,8 +38,8 @@
 </script>
 
 <!-- Normal Navigation Links  -->
-<div class="hidden lg:flex lg:flex-row lg:pt-4">
-	<ul class="flex flex-row grow space-x-8">
+<div class="hidden lg:flex lg:flex-row lg:pt-4 lg:justify-between">
+	<ul class="flex flex-row space-x-8">
 		{#each routes as route}
 			<li class="my-auto">
 				<a

@@ -13,7 +13,7 @@
 	];
 </script>
 
-<section id="Team" class="py-24">
+<section id="Team" class="py-24 bg-base-300">
 	<div
 		class="flex flex-col lg:flex-row-reverse max-w-[100rem] px-8 mx-auto space-y-12 lg:space-y-0"
 	>
@@ -71,7 +71,4 @@
 </section>
 
 <style>
-	#Team {
-		background: linear-gradient(to bottom, #f3f0ed 0%, #f3f0ed 80%, #fff6eb 100%);
-	}
 </style>

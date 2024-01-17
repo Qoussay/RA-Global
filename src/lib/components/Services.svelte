@@ -44,7 +44,7 @@
 			<!-- title and description  -->
 			<div class="flex flex-col justify-center lg:w-1/2 mx-auto lg:mx-0">
 				<Pill text="Unlocking Educational Paths" />
-				<h1 class="font-bold text-secondary text-2xl/tight lg:text-3xl/snug xl:text-4xl /snug">
+				<h1 class="font-bold text-secondary text-2xl/tight lg:text-3xl/snug xl:text-4xl/snug">
 					Scholarship Opportunities
 				</h1>
 				<p class="font-medium text-base xl:text-lg my-8">
@@ -69,7 +69,7 @@
 			<!-- title and description  -->
 			<div class="flex flex-col justify-center lg:w-1/2 mx-auto lg:mx-0">
 				<Pill text="Your Educational Haven" />
-				<h1 class="font-bold text-secondary text-2xl/tight lg:text-3xl/snug xl:text-4xl /snug">
+				<h1 class="font-bold text-secondary text-2xl/tight lg:text-3xl/snug xl:text-4xl/snug">
 					Gateway to Academic Success
 				</h1>
 				<p class="font-medium text-base xl:text-lg my-8">
