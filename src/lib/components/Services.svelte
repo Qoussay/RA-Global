@@ -13,7 +13,7 @@
 </script>
 
 <section id="Services" class="py-20">
-	<div class="max-w-[100rem] sm:px-8 px-4 mx-auto flex flex-col space-y-12 lg:space-y-0">
+	<div class="max-w-[100rem] sm:px-8 px-8 mx-auto flex flex-col space-y-12 lg:space-y-0">
 		<!-- geral idea  -->
 		<div class="flex flex-col text-center w-full lg:w-3/4 mx-auto">
 			<h1 class="font-bold text-secondary text-3xl/snug lg:text-4xl/snug xl:text-5xl/snug">
@@ -38,11 +38,11 @@
 		<!-- service one  -->
 		<div class="flex flex-col lg:flex-row space-y-8 lg:space-y-0">
 			<!-- image  -->
-			<div class="mx-auto w-3/4 lg:mx-0 lg:w-1/2">
+			<div class="mx-auto lg:mx-0 lg:w-1/2">
 				<img src="/images/serviceOne.png" alt="service one" class="w-full lg:w-3/4 px-4 lg:px-0" />
 			</div>
 			<!-- title and description  -->
-			<div class="flex flex-col justify-center w-3/4 lg:w-1/2 mx-auto lg:mx-0">
+			<div class="flex flex-col justify-center lg:w-1/2 mx-auto lg:mx-0">
 				<Pill text="Unlocking Educational Paths" />
 				<h1 class="font-bold text-secondary text-2xl/tight lg:text-3xl/snug xl:text-4xl /snug">
 					Scholarship Opportunities
@@ -59,7 +59,7 @@
 		<!-- service two  -->
 		<div class="flex flex-col lg:flex-row-reverse space-y-8 lg:space-y-0">
 			<!-- image  -->
-			<div class="mx-auto w-3/4 lg:mx-0 lg:w-1/2">
+			<div class="mx-auto lg:mx-0 lg:w-1/2">
 				<img
 					src="/images/serviceTwo.png"
 					alt="service two"
@@ -67,7 +67,7 @@
 				/>
 			</div>
 			<!-- title and description  -->
-			<div class="flex flex-col justify-center w-3/4 lg:w-1/2 mx-auto lg:mx-0">
+			<div class="flex flex-col justify-center lg:w-1/2 mx-auto lg:mx-0">
 				<Pill text="Your Educational Haven" />
 				<h1 class="font-bold text-secondary text-2xl/tight lg:text-3xl/snug xl:text-4xl /snug">
 					Gateway to Academic Success

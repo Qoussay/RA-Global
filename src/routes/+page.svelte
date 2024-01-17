@@ -7,17 +7,6 @@
 	import FAQ from '$lib/components/FAQ.svelte';
 	import StudentTestimonyCard from '$lib/components/StudentTestimonyCard.svelte';
 	import { text } from '@sveltejs/kit';
-	import CheckCircle from '~icons/tdesign/check-circle-filled';
-	import Certificate from '~icons/tabler/certificate';
-
-	const servicesExpectations = [
-		'Tailored Scholarship Guidance',
-		'University Placement Expertise',
-		'Educational Program Recommendations',
-		'Application and Documentation Assistance',
-		'Career Path Counseling',
-		'Continuous Support'
-	];
 
 	const studentTestimonies = [
 		{
@@ -82,69 +71,6 @@
 </main>
 
 <main id="homePage" class="hidden">
-	<!-- meet the team section  -->
-	<section id="Team" class="bg-base-300 px-56 py-24 hidden">
-		<div class="flex 2xl:space-x-24 space-x-12">
-			<!-- qoussay photo -->
-			<div class="w-1/4 text-center">
-				<img src="/images/qoussay.png" alt="qoussay" class="w-full" />
-				<h1 class="2xl:text-xl text-lg pt-4 font-medium">Qoussay El Akkari</h1>
-				<h2 class="2xl:text-xl text-lg text-secondary">Managing Partner</h2>
-			</div>
-			<!-- aziz photo  -->
-			<div class="w-1/4 2xl:mt-80 mt-0 text-center">
-				<img src="/images/aziz.png" alt="aziz" class="w-full" />
-				<h1 class="2xl:text-xl text-lg pt-4 font-medium">Aziz Rezgani</h1>
-				<h2 class="2xl:text-xl text-lg text-secondary">Managing Partner</h2>
-			</div>
-			<div class="w-1/2">
-				<Pill text="You are in good hands" />
-				<h1 class=" text-4xl 2xl:text-5xl font-bold 2xl:mb-10 mb-6 pt-3 text-secondary">
-					Meet the faces behind RA Global
-				</h1>
-				<p class="2xl:text-xl text-lg leading-relaxed">
-					We bring professionalism and dedication to redefine education consultancy. Our mission is
-					to revolutionize the industry and set new standards, taking North Africa on an
-					extraordinary journey toward academic excellence.
-				</p>
-				<!-- show this on large screens  -->
-				<div class="bg-base-200 rounded-2xl p-12 mt-24 text-xl shadow-lg relative hidden 2xl:block">
-					<Certificate
-						class="2xl:w-12 2xl:h-12 w-10 h-10 p-2 rounded-2xl bg-primary text-white absolute 2xl:-top-6 -top-5 start-12 shadow-md"
-					/>
-					<h1 class="text-secondary font-semibold mb-4">
-						At RA Global, we pride ourselves on the quality of our services.<br />You can expect the
-						following from us:
-					</h1>
-					{#each servicesExpectations as e}
-						<div class="flex py-3 2xl:space-x-4 space-x-3">
-							<CheckCircle class="2xl:w-8 2xl:h-8 w-7 h-7 text-success" />
-							<p>{e}</p>
-						</div>
-					{/each}
-				</div>
-			</div>
-		</div>
-		<!-- show this only on small screens  -->
-		<div class="bg-base-200 rounded-2xl p-12 mt-24 text-md shadow-lg relative 2xl:hidden">
-			<Certificate
-				class="w-10 h-10 p-2 rounded-2xl bg-primary text-white absolute  -top-5 start-12 shadow-md"
-			/>
-			<h1 class="text-secondary font-semibold mb-4">
-				At RA Global, we pride ourselves on the quality of our services.<br />You can expect the
-				following from us:
-			</h1>
-			<div class="grid grid-cols-2">
-				{#each servicesExpectations as e}
-					<div class="flex py-3 2xl:space-x-4 space-x-3">
-						<CheckCircle class="2xl:w-8 2xl:h-8 w-7 h-7 text-success" />
-						<p>{e}</p>
-					</div>
-				{/each}
-			</div>
-		</div>
-	</section>
-
 	<!-- what we offer our partners section  -->
 	<section id="Partnerships" class="bg-base-300 px-56 py-24">
 		<div class="flex">
