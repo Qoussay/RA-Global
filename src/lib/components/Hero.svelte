@@ -27,7 +27,7 @@
 		</div>
 		<!-- hero image  -->
 		<div class="w-full lg:w-1/2">
-			<img src="/images/hero.png" alt="hero" class="w-full mx-auto px-8 lg:px-0" />
+			<img src="/images/hero.png" alt="hero" class="w-full mx-auto px-4 lg:px-0" />
 		</div>
 	</div>
 </section>
