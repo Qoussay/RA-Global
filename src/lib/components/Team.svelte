@@ -49,18 +49,22 @@
 			<!-- qoussay photo  -->
 			<div class="w-1/2">
 				<img src="/images/qoussay.png" alt="qoussay" class="lg:w-3/4 mx-auto" />
-				<h1 class="text-center text-lg xl:text-xl font-semibold text-secondary-highlight my-2">
+				<h1
+					class="text-center text-base sm:text-lg xl:text-xl font-semibold text-secondary-highlight my-2"
+				>
 					Qoussay El Akkari
 				</h1>
-				<h2 class="text-center text-base xl:text-lg font-medium">Managing Partner</h2>
+				<h2 class="text-center text-sm sm:text-base xl:text-lg font-medium">Managing Partner</h2>
 			</div>
 			<!-- aziz photo  -->
 			<div class="w-1/2 lg:mt-auto">
 				<img src="/images/aziz.png" alt="aziz" class="lg:w-3/4 mx-auto" />
-				<h1 class="text-center text-lg xl:text-xl font-semibold text-secondary-highlight my-2">
+				<h1
+					class="text-center text-base sm:text-lg xl:text-xl font-semibold text-secondary-highlight my-2"
+				>
 					Aziz Rezgani
 				</h1>
-				<h2 class="text-center text-base xl:text-lg font-medium">Managing Partner</h2>
+				<h2 class="text-center text-sm sm:text-base xl:text-lg font-medium">Managing Partner</h2>
 			</div>
 		</div>
 	</div>
