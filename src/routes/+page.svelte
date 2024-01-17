@@ -7,6 +7,7 @@
 	import { text } from '@sveltejs/kit';
 	import CheckCircle from '~icons/tdesign/check-circle-filled';
 	import Certificate from '~icons/tabler/certificate';
+	import Services from '$lib/components/Services.svelte';
 
 	const servicesExpectations = [
 		'Tailored Scholarship Guidance',
@@ -75,36 +76,9 @@
 
 <main id="homePage">
 	<Hero />
+	<Services />
 </main>
 <main id="homePage" class="hidden">
-	<!-- hero section -->
-	<section
-		id="Hero"
-		class=" flex sm:flex-row flex-col space-y-12 sm:space-y-0 pt-4 pb-24 text-center sm:text-left px-6 sm:px-0 hidden"
-	>
-		<!-- left panel -->
-		<div class="sm:w-1/2 sm:ps-56">
-			<div class="sm:block flex justify-center">
-				<Pill text="Welcome to RA Global" />
-			</div>
-			<h1
-				class=" text-4xl sm:text-5xl 2xl:text-7xl font-bold pb-4 text-secondary leading-tight 2xl:leading-snug"
-			>
-				Bridging Borders,<br />Fostering Futures
-			</h1>
-			<p class=" text-md sm:text-lg 2xl:text-xl 2xl:w-3/4 2xl:leading-relaxed">
-				RA Global leads North Africa in connecting students to educational opportunities in Asia. As
-				the key link between these regions, we provide personalized education, emphasizing
-				individual strengths and fostering academic excellence.
-			</p>
-			<Button text="Enroll today" nav="/contact" />
-		</div>
-		<!-- right panel  -->
-		<div class="sm:w-1/2 sm:my-auto sm:pe-32 mx-auto sm:mx-0">
-			<img src="/images/hero.png" alt="hero" class="w-full" />
-		</div>
-	</section>
-
 	<!-- services section  -->
 	<section id="Services" class="bg-base-200 sm:px-56 py-20 hidden">
 		<h1

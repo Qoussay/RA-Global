@@ -34,7 +34,7 @@
 			<li class="my-auto">
 				<a
 					href={route.path}
-					class="hover:text-secondary-highlight pb-2 duration-200 text-sm xl:text-base font-semibold"
+					class="hover:text-secondary-highlight pb-2 duration-200 text-base xl:text-lg font-semibold"
 					aria-current={$page.url.pathname === route.path}
 				>
 					{route.name}
@@ -76,7 +76,7 @@
 					</li>
 				{/each}
 				<li class="w-fit mx-auto text-lg">
-					<Button text="Enroll today" nav="/contact" large={true} />
+					<Button text="Enroll today" nav="/contact" />
 				</li>
 			</ul>
 		</div>
