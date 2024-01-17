@@ -23,7 +23,9 @@
 				the key link between these regions, we provide personalized education, emphasizing
 				individual strengths and fostering academic excellence.
 			</p>
-			<Button text="Learn More" nav="/about" />
+			<div>
+				<Button text="Learn More" nav="/about" />
+			</div>
 		</div>
 		<!-- hero image  -->
 		<div class="w-full lg:w-1/2">

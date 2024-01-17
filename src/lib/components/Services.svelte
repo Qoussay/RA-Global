@@ -4,12 +4,11 @@
 	import CheckCircle from '~icons/tdesign/check-circle-filled';
 
 	const services = [
-		'Tailored Scholarship Guidance',
-		'University Placement Expertise',
-		'Educational Program Recommendations',
-		'Application and Documentation Assistance',
-		'Career Path Counseling',
-		'Continuous Support'
+		'Seasoned Professionals',
+		'Inclusive Community',
+		'Specialized Programs',
+		'Individualized Attention',
+		'Tailored Guidance'
 	];
 </script>
 
@@ -30,19 +29,11 @@
 			<p class="font-medium text-base xl:text-lg my-8">
 				{#each services as service}
 					<div class="inline-block px-4 py-2">
-						<CheckCircle class="w-6 h-6 text-success inline" />
+						<CheckCircle class="w-5 xl:w-6 h-5 xl:h-6 text-success inline" />
 						{service}
 					</div>
 				{/each}
 			</p>
-			<!-- <div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4 my-8 w-fit mx-auto">
-				{#each services as service}
-					<div class="flex flex-row space-x-4 w-fit">
-						<CheckCircle class="w-6 h-6 text-success" />
-						<p class="text-secondary font-medium text-base xl:text-lg text-left">{service}</p>
-					</div>
-				{/each}
-			</div> -->
 		</div>
 		<!-- service one  -->
 		<div class="flex flex-col lg:flex-row space-y-8 lg:space-y-0">
