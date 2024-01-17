@@ -13,7 +13,7 @@
 			<div class="flex justify-center lg:justify-start">
 				<Pill text="Welcome to RA Global" />
 			</div>
-			<h1 class="font-bold text-secondary text-5xl xl:text-6xl leading-snug xl:leading-snug">
+			<h1 class="font-bold text-secondary text-5xl xl:text-6xl leading-tight lg:leading-snug">
 				Bridging Borders,<br />Fostering Futures
 			</h1>
 			<p class="w-3/4 mt-4 mb-8 font-medium text-base xl:text-lg mx-auto lg:mx-0">
@@ -25,7 +25,7 @@
 		</div>
 		<!-- hero image  -->
 		<div class="w-full lg:w-1/2">
-			<img src="/images/hero.png" alt="hero" class="w-3/4 lg:w-full mx-auto" />
+			<img src="/images/hero.png" alt="hero" class="w-full mx-auto px-8 lg:px-0" />
 		</div>
 	</div>
 </section>
