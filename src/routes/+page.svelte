@@ -1,13 +1,14 @@
 <script>
+	import Hero from '$lib/components/Hero.svelte';
+	import Services from '$lib/components/Services.svelte';
+	import Team from '$lib/components/Team.svelte';
 	import Pill from '$lib/components/Pill.svelte';
 	import Button from '$lib/components/Button.svelte';
-	import Hero from '$lib/components/Hero.svelte';
 	import FAQ from '$lib/components/FAQ.svelte';
 	import StudentTestimonyCard from '$lib/components/StudentTestimonyCard.svelte';
 	import { text } from '@sveltejs/kit';
 	import CheckCircle from '~icons/tdesign/check-circle-filled';
 	import Certificate from '~icons/tabler/certificate';
-	import Services from '$lib/components/Services.svelte';
 
 	const servicesExpectations = [
 		'Tailored Scholarship Guidance',
@@ -77,6 +78,7 @@
 <main id="homePage">
 	<Hero />
 	<Services />
+	<Team />
 </main>
 
 <main id="homePage" class="hidden">

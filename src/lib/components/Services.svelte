@@ -12,7 +12,7 @@
 	];
 </script>
 
-<section id="Services" class="py-20 bg-base-100">
+<section id="Services" class="py-20">
 	<div class="max-w-[100rem] sm:px-8 px-4 mx-auto flex flex-col space-y-12 lg:space-y-0">
 		<!-- geral idea  -->
 		<div class="flex flex-col text-center w-full lg:w-3/4 mx-auto">
@@ -44,9 +44,7 @@
 			<!-- title and description  -->
 			<div class="flex flex-col justify-center w-3/4 lg:w-1/2 mx-auto lg:mx-0">
 				<Pill text="Unlocking Educational Paths" />
-				<h1
-					class="font-bold text-secondary text-2xl lg:text-3xl xl:text-4xl leading-tight lg:leading-snug"
-				>
+				<h1 class="font-bold text-secondary text-2xl/tight lg:text-3xl/snug xl:text-4xl /snug">
 					Scholarship Opportunities
 				</h1>
 				<p class="font-medium text-base xl:text-lg my-8">
@@ -71,9 +69,7 @@
 			<!-- title and description  -->
 			<div class="flex flex-col justify-center w-3/4 lg:w-1/2 mx-auto lg:mx-0">
 				<Pill text="Your Educational Haven" />
-				<h1
-					class="font-bold text-secondary text-2xl lg:text-3xl xl:text-4xl leading-tight lg:leading-snug"
-				>
+				<h1 class="font-bold text-secondary text-2xl/tight lg:text-3xl/snug xl:text-4xl /snug">
 					Gateway to Academic Success
 				</h1>
 				<p class="font-medium text-base xl:text-lg my-8">
@@ -87,4 +83,8 @@
 	</div>
 </section>
 
-<style></style>
+<style>
+	#Services {
+		background: linear-gradient(to bottom, #fff6eb 0%, #fff6eb 90%, #f3f0ed 100%);
+	}
+</style>
