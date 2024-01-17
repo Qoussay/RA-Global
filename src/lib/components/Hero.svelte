@@ -5,9 +5,7 @@
 </script>
 
 <section id="Hero" class="py-20">
-	<div
-		class="max-w-[100rem] sm:px-8 px-4 mx-auto flex flex-col lg:flex-row space-y-12 lg:space-y-0"
-	>
+	<div class="max-w-[100rem] px-8 mx-auto flex flex-col lg:flex-row space-y-12 lg:space-y-0">
 		<!-- title panel  -->
 		<div class="w-full lg:w-1/2 text-center lg:text-left flex flex-col justify-center">
 			<div class="flex justify-center lg:justify-start">
@@ -18,7 +16,7 @@
 			>
 				Bridging Borders,<br />Fostering Futures
 			</h1>
-			<p class="w-3/4 my-8 font-medium text-base xl:text-lg mx-auto lg:mx-0">
+			<p class="lg:w-3/4 my-8 font-medium text-base xl:text-lg mx-auto lg:mx-0">
 				RA Global leads North Africa in connecting students to educational opportunities in Asia. As
 				the key link between these regions, we provide personalized education, emphasizing
 				individual strengths and fostering academic excellence.

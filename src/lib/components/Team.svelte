@@ -15,7 +15,7 @@
 
 <section id="Team" class="py-24">
 	<div
-		class="flex flex-col lg:flex-row-reverse max-w-[100rem] sm:px-8 px-4 mx-auto space-y-12 lg:space-y-0"
+		class="flex flex-col lg:flex-row-reverse max-w-[100rem] px-8 mx-auto space-y-12 lg:space-y-0"
 	>
 		<!-- description  -->
 		<div class="flex flex-col justify-center lg:w-1/2 mx-auto">
@@ -39,7 +39,7 @@
 				{#each servicesExpectations as e}
 					<div class="flex py-3 2xl:space-x-4 space-x-3">
 						<CheckCircle class="2xl:h-8 h-6 text-success w-1/12 my-auto" />
-						<p class="font-medium text-base xl:text-lg w-11/12">{e}</p>
+						<p class="font-medium text-sm md:text-base xl:text-lg w-11/12">{e}</p>
 					</div>
 				{/each}
 			</div>

@@ -13,7 +13,7 @@
 </script>
 
 <section id="Services" class="py-20">
-	<div class="max-w-[100rem] sm:px-8 px-8 mx-auto flex flex-col space-y-12 lg:space-y-0">
+	<div class="max-w-[100rem] px-8 mx-auto flex flex-col space-y-12 lg:space-y-0">
 		<!-- geral idea  -->
 		<div class="flex flex-col text-center w-full lg:w-3/4 mx-auto">
 			<h1 class="font-bold text-secondary text-3xl/snug lg:text-4xl/snug xl:text-5xl/snug">
