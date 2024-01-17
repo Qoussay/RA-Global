@@ -73,11 +73,11 @@
 </script>
 
 <h1>Home page</h1>
-<main id="homePage" class="hidden">
+<main id="homePage" class="">
 	<!-- hero section -->
 	<section
 		id="Hero"
-		class=" flex sm:flex-row flex-col space-y-12 sm:space-y-0 pt-4 pb-24 text-center sm:text-left px-6 sm:px-0"
+		class=" flex sm:flex-row flex-col space-y-12 sm:space-y-0 pt-4 pb-24 text-center sm:text-left px-6 sm:px-0 hidden"
 	>
 		<!-- left panel -->
 		<div class="sm:w-1/2 sm:ps-56">
@@ -103,7 +103,7 @@
 	</section>
 
 	<!-- services section  -->
-	<section id="Services" class="bg-base-200 sm:px-56 py-20">
+	<section id="Services" class="bg-base-200 sm:px-56 py-20 hidden">
 		<h1
 			class=" text-center 2xl:text-5xl sm:text-4xl text-2xl w-3/4 mx-auto leading-normal 2xl:leading-relaxed text-secondary font-bold 2xl:mb-12 mb-8"
 		>
@@ -276,7 +276,7 @@
 	</section>
 
 	<!-- what we offer our partners section  -->
-	<section id="Partnerships" class="bg-base-300 px-56 py-24 hidden">
+	<section id="Partnerships" class="bg-base-300 px-56 py-24">
 		<div class="flex">
 			<div class="w-1/2">
 				<Pill text="Strategic Academic Partnerships" />
