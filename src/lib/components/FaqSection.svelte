@@ -3,26 +3,31 @@
 
 	const faqArray = [
 		{
+			id: 'faq1',
 			question: 'Q: How can RA Global assist in finding the right scholarship?',
 			answer:
 				'A: RA Global specializes in personalized guidance, tailoring scholarship searches to match your academic and career aspirations, ensuring you access opportunities that align with your goals.'
 		},
 		{
+			id: 'faq2',
 			question: 'Q: What types of universities does RA Global collaborate with?',
 			answer:
 				'A: We collaborate with a diverse range of universities across Asia, ensuring access to esteemed institutions that offer a variety of academic programs.'
 		},
 		{
+			id: 'faq3',
 			question: 'Q: How does RA Global support the application process?',
 			answer:
 				'A: Our support extends from document preparation to application submission, ensuring a seamless process and maximizing your chances of successful admission.'
 		},
 		{
+			id: 'faq4',
 			question: 'Q: What sets RA Global apart in student recruitment strategies?',
 			answer:
 				'A: RA Global employs targeted marketing, on-ground events, and strategic outreach to attract top-tier students, creating a robust and diverse student community for our partner universities.'
 		},
 		{
+			id: 'faq5',
 			question: "Q: Is there a cost for RA Global's application support services?",
 			answer:
 				"A: No, RA Global's application support services are entirely free of charge. Our commitment is to provide accessible and comprehensive assistance to students seeking educational opportunities."
@@ -45,7 +50,7 @@
 		<!-- Q&A  -->
 		<div>
 			{#each faqArray as f}
-				<FAQ question={f.question} answer={f.answer} />
+				<FAQ data={f} />
 			{/each}
 		</div>
 	</div>
