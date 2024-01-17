@@ -1,6 +1,7 @@
 <script>
 	import Pill from '$lib/components/Pill.svelte';
 	import Button from '$lib/components/Button.svelte';
+	import Hero from '$lib/components/Hero.svelte';
 	import FAQ from '$lib/components/FAQ.svelte';
 	import StudentTestimonyCard from '$lib/components/StudentTestimonyCard.svelte';
 	import { text } from '@sveltejs/kit';
@@ -72,8 +73,10 @@
 	];
 </script>
 
-<h1>Home page</h1>
-<main id="homePage" class="">
+<main id="homePage">
+	<Hero />
+</main>
+<main id="homePage" class="hidden">
 	<!-- hero section -->
 	<section
 		id="Hero"
@@ -374,7 +377,4 @@
 </main>
 
 <style>
-	#Hero {
-		background: linear-gradient(to bottom, #e9efff 0%, #e9efff 90%, #fffdfa 100%);
-	}
 </style>

@@ -34,7 +34,7 @@
 			<li class="my-auto">
 				<a
 					href={route.path}
-					class="hover:text-base-110 pb-2 duration-200 text-sm xl:text-base font-semibold"
+					class="hover:text-secondary-highlight pb-2 duration-200 text-sm xl:text-base font-semibold"
 					aria-current={$page.url.pathname === route.path}
 				>
 					{route.name}
@@ -51,14 +51,15 @@
 	<label
 		for="menu-toggle"
 		class="flex items-center cursor-pointer z-10"
-		class:text-white={menuToggled}
+		class:text-base-200={menuToggled}
+		class:text-secondary={!menuToggled}
 	>
 		<MenuIcon class="w-10 h-10" />
 	</label>
 	<!-- drawer  -->
 	{#if menuToggled}
 		<div
-			class="w-screen h-screen bg-secondary-highlight fixed top-0 start-0"
+			class="w-screen h-screen bg-secondary fixed top-0 start-0"
 			transition:slide={{ duration: 500, axis: 'y', easing: quintInOut }}
 		>
 			<ul class="flex flex-col justify-center h-full space-y-12">
@@ -66,7 +67,7 @@
 					<li class="w-fit mx-auto text-white">
 						<a
 							href={route.path}
-							class="hover:text-base-110 pb-2 duration-200 text-lg font-semibold"
+							class="hover:text-neutral pb-2 duration-200 text-lg font-semibold"
 							aria-current={$page.url.pathname === route.path}
 							on:click={() => (menuToggled = false)}
 						>
@@ -86,7 +87,7 @@
 	a:after {
 		display: block;
 		content: '';
-		height: 7px;
+		height: 5px;
 		background: #fbaf4d;
 		transform: scaleX(0);
 		transition: transform 250ms ease-in-out;
@@ -98,16 +99,22 @@
 		transition-duration: 200ms;
 	}
 	a[aria-current='true'] {
-		color: #6f7597;
+		color: #32326a;
 	}
 
 	a[aria-current='true']:after {
 		display: block;
 		content: '';
-		height: 7px;
+		height: 5px;
 		background: #fbaf4d;
 		transform: scaleX(1);
 		padding-bottom: 4%;
 		border-radius: 5px;
+	}
+
+	@media (max-width: 1024px) {
+		a[aria-current='true'] {
+			color: #f2e3d3;
+		}
 	}
 </style>

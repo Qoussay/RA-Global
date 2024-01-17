@@ -11,7 +11,7 @@
 		/>
 		<div>
 			<p class="text-sm xl:text-base font-bold text-secondary">Email</p>
-			<p class="text-sm xl:text-base">info@raglobal.tn</p>
+			<p class="text-sm xl:text-base font-medium">info@raglobal.tn</p>
 		</div>
 	{:else if type === 'phone'}
 		<PhoneIcon
@@ -19,7 +19,7 @@
 		/>
 		<div>
 			<p class="text-sm xl:text-base font-bold text-secondary">Phone</p>
-			<p class="text-sm xl:text-base">+216-48 063 544</p>
+			<p class="text-sm xl:text-base font-medium">+216-48 063 544</p>
 		</div>
 	{/if}
 </div>

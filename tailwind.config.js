@@ -9,7 +9,7 @@ export default {
 			'primary-highlight': '#a44648',
 			'secondary-highlight': '#32326a',
 			'accent-highlight': '#fbbf70',
-			'base-110': '#6f7597'
+			'base-110': '#a88763'
 		},
 		extend: {}
 	},
@@ -20,9 +20,9 @@ export default {
 					primary: '#8e191b',
 					secondary: '#000046',
 					accent: '#fbaf4d',
-					neutral: '#cbd5f0',
-					'base-100': '#e9efff',
-					'base-200': '#FFFDFA',
+					neutral: '#f2e3d3',
+					'base-100': '#fff6eb',
+					'base-200': '#fff9f3',
 					'base-300': '#f6f8ff',
 					info: '#bae6fd',
 					success: '#84cc80',

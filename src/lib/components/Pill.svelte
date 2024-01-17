@@ -3,7 +3,7 @@
 </script>
 
 <p
-	class="text-sm 2xl:text-lg bg-primary text-white w-fit py-2 px-4 rounded-full 2xl:my-4 my-2 shadow-lg -rotate-1 mb-4 sm:mb-0"
+	class="bg-primary text-white w-fit py-2 px-4 rounded-full shadow-lg -rotate-1 font-medium text-sm xl:text-base"
 >
 	{text}
 </p>
