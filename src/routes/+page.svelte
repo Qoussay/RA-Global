@@ -78,6 +78,7 @@
 	<Hero />
 	<Services />
 </main>
+
 <main id="homePage" class="hidden">
 	<!-- meet the team section  -->
 	<section id="Team" class="bg-base-300 px-56 py-24 hidden">

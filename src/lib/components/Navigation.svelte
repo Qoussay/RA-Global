@@ -25,6 +25,16 @@
 	];
 
 	let menuToggled = false;
+
+	const bodyElement = document.querySelector('body');
+
+	$: {
+		if (menuToggled) {
+			bodyElement.style.overflow = 'hidden';
+		} else {
+			bodyElement.style.overflow = 'auto';
+		}
+	}
 </script>
 
 <!-- Normal Navigation Links  -->
