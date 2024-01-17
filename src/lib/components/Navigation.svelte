@@ -5,6 +5,8 @@
 	import Button from './Button.svelte';
 	import MenuIcon from '~icons/material-symbols/menu-rounded';
 	import { text } from '@sveltejs/kit';
+	import { browser } from '$app/environment';
+
 	const routes = [
 		{
 			name: 'Home',
@@ -26,13 +28,11 @@
 
 	let menuToggled = false;
 
-	const bodyElement = document.querySelector('body');
-
 	$: {
-		if (menuToggled) {
-			bodyElement.style.overflow = 'hidden';
-		} else {
-			bodyElement.style.overflow = 'auto';
+		if (menuToggled && browser) {
+			document.querySelector('body').style.overflow = 'hidden';
+		} else if (!menuToggled && browser) {
+			document.querySelector('body').style.overflow = 'auto';
 		}
 	}
 </script>
