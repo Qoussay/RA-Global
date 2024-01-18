@@ -15,5 +15,5 @@
 			<Star class="2xl:w-5 2xl:h-5 w-4 h-4 text-accent" />
 		{/each}
 	</div>
-	<p class="text-md leading-relaxed xl:text-lg/relaxed mt-6 font-medium">"{testimony.quote}"</p>
+	<p class="text-base/relaxed xl:text-lg/relaxed mt-6 font-medium">"{testimony.quote}"</p>
 </div>

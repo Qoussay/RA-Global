@@ -2,6 +2,7 @@
 	import '../app.css';
 	import Navbar from '$lib/components/Navbar.svelte';
 	import Button from '$lib/components/Button.svelte';
+	import ContactInfo from '$lib/components/ContactInfo.svelte';
 	import MailIcon from '~icons/ic/baseline-mail';
 	import PhoneIcon from '~icons/ic/baseline-local-phone';
 	import FacebookIcon from '~icons/ic/round-facebook';
@@ -11,6 +12,25 @@
 	const facebookUrl = 'https://www.facebook.com/raglobal.tn';
 	const instagramUrl = 'https://www.instagram.com/raglobal.tn/';
 	const linkedinUrl = 'https://www.linkedin.com/company/raglobaltn';
+
+	const routes = [
+		{
+			name: 'Home',
+			path: '/'
+		},
+		{
+			name: 'About',
+			path: '/about'
+		},
+		{
+			name: 'Partners',
+			path: '/partners'
+		},
+		{
+			name: 'Contact us',
+			path: '/contact'
+		}
+	];
 </script>
 
 <Navbar />
@@ -18,9 +38,11 @@
 <slot />
 
 <!-- brand logo section -->
-<section id="BrandLogo" class="bg-base-300 2xl:py-36 py-24 hidden">
+<section id="BrandLogo" class="bg-base-300 flex flex-col justify-center py-24">
 	<img src="/images/hatRed.png" alt="brand logo" class="2xl:w-64 w-44 mx-auto" />
-	<h1 class="font-bold 2xl:text-5xl text-4xl text-secondary text-center leading-tight mt-8">
+	<h1
+		class="font-bold text-secondary text-center text-3xl/tight lg:text-4xl/tight xl:text-5xl/tight mb-8 mt-4"
+	>
 		Bridging Borders,<br />Fostering Futures
 	</h1>
 	<div class="mx-auto w-fit">
@@ -29,72 +51,52 @@
 </section>
 
 <!-- footer  -->
-<footer class="bg-base-200 2xl:pt-24 pt-12 pb-12 px-12 font-medium hidden">
-	<div class="grid grid-cols-4">
+<footer class="bg-base-100 pb-8 py-12 px-8 font-medium">
+	<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
 		<!-- brand logo and social links  -->
-		<div class="col-start-1 col-span-2">
-			<img src="/images/fullRed.png" alt="brand logo" class="2xl:w-56 w-44" />
-			<p class="2xl:text-lg text-md leading-relaxed mt-12 w-3/4">
+		<div class="md:col-span-2">
+			<img src="/images/fullRed.png" alt="brand logo" class="w-40 lg:w-44 xl:w-56" />
+			<p class="text-sm/relaxed sm:text-base/relaxed xl:text-lg/relaxed mt-8 mb-4 lg:w-3/4">
 				RA Global is a leading education consultancy firm, connecting North African students to
 				tailored scholarship and educational opportunities in Asia.
 			</p>
-			<div class="flex 2xl:mt-8 mt-6 space-x-4">
+			<div class="flex space-x-4">
 				<a href={facebookUrl}>
-					<FacebookIcon
-						class="2xl:w-10 w-8 2xl:h-10 h-8 p-2 rounded-full bg-accent text-white"
-					/></a
+					<FacebookIcon class="w-8 xl:w-10 h-8 xl:h-10 p-2 rounded-full bg-accent text-white" /></a
 				>
 				<a href={instagramUrl}>
-					<InstagramIcon
-						class="2xl:w-10 w-8 2xl:h-10 h-8 p-2 rounded-full bg-accent text-white"
-					/></a
+					<InstagramIcon class="w-8 xl:w-10 h-8 xl:h-10 p-2 rounded-full bg-accent text-white" /></a
 				>
 				<a href={linkedinUrl}>
-					<LinkedInIcon
-						class="2xl:w-10 w-8 2xl:h-10 h-8 p-2 rounded-full bg-accent text-white"
-					/></a
+					<LinkedInIcon class="w-8 xl:w-10 h-8 xl:h-10 p-2 rounded-full bg-accent text-white" /></a
 				>
 			</div>
 		</div>
 		<!-- site link  -->
 		<div>
-			<h1 class="text-secondary font-semibold 2xl:text-2xl text-lg">Site Links</h1>
-			<!-- {#each $routes as r}
-				<a
-					class="block 2xl:text-lg text-md 2xl:py-3 py-2 border-b-2 border-b-neutral last:border-b-0 w-3/4 hover:text-base-110"
-					href={r.path}>{r.name}</a
-				>
-			{/each} -->
+			<h1 class="text-secondary font-semibold text-lg xl:text-xl">Site Links</h1>
+			<div class="flex flex-col space-y-2 mt-4">
+				{#each routes as r}
+					<a
+						class="text-sm sm:text-base xl:text-lg border-b-2 border-b-neutral last:border-b-0 md:w-3/4 pb-2 hover:text-secondary-highlight font-medium"
+						href={r.path}>{r.name}</a
+					>
+				{/each}
+			</div>
 		</div>
 		<!-- contact us details  -->
 		<div>
-			<h1 class="text-secondary font-semibold 2xl:text-2xl text-lg">Contact us</h1>
-			<!-- email details  -->
-			<div class="flex my-auto space-x-5 py-4">
-				<MailIcon
-					class="2xl:w-12 2xl:h-12 w-10 h-10 my-auto p-3 rounded-xl bg-primary-highlight text-white"
-				/>
-				<div>
-					<p class="2xl:text-md text-sm text-secondary font-bold pb-1">Email</p>
-					<p class="2xl:text-md text-sm">info@raglobal.tn</p>
-				</div>
-			</div>
-			<!-- phone details  -->
-			<div class="flex my-auto space-x-5 py-4">
-				<PhoneIcon
-					class="2xl:w-12 2xl:h-12 w-10 h-10 my-auto p-3 rounded-xl bg-primary-highlight text-white"
-				/>
-				<div>
-					<p class="2xl:text-md text-sm text-secondary font-bold pb-1">Phone</p>
-					<p class="2xl:text-md text-sm">+216-48 063 544</p>
-				</div>
+			<h1 class="text-secondary font-semibold text-lg xl:text-xl">Contact us</h1>
+			<div class="flex flex-col space-y-4 xl:space-y-8 mt-4 xl:mt-8">
+				<ContactInfo type="email" />
+				<ContactInfo type="phone" />
 			</div>
 		</div>
 	</div>
 	<!-- divider  -->
-	<hr class="border-neutral 2xl:mt-12 mt-8 2xl:mb-8 mb-6" />
+	<hr class="border-neutral mt-8 xl:mt-12 mb-6 xl:mb-8" />
 	<!-- credits  -->
-	<p class="text-sm 2xl:text-md">© 2024 Rezgani Akkari Global. All rights reserved.</p>
+	<p class="text-xs sm:text-sm xl:text-base">© 2024 Rezgani Akkari Global. All rights reserved.</p>
 </footer>
 
 <style>
@@ -109,7 +111,7 @@
 		margin-bottom: 3%;
 	}
 
-	@media (max-width: 1536px) {
+	@media (max-width: 1280px) {
 		footer h1::after {
 			display: block;
 			content: '';
