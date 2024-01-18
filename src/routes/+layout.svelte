@@ -3,8 +3,6 @@
 	import Navbar from '$lib/components/Navbar.svelte';
 	import Button from '$lib/components/Button.svelte';
 	import ContactInfo from '$lib/components/ContactInfo.svelte';
-	import MailIcon from '~icons/ic/baseline-mail';
-	import PhoneIcon from '~icons/ic/baseline-local-phone';
 	import FacebookIcon from '~icons/ic/round-facebook';
 	import InstagramIcon from '~icons/ri/instagram-fill';
 	import LinkedInIcon from '~icons/ion/logo-linkedin';

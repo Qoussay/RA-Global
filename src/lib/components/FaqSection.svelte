@@ -36,7 +36,7 @@
 </script>
 
 <section id="FAQ" class="py-20 bg-base-200">
-	<div class="max-w-[100rem] px-8 mx-auto flex flex-col">
+	<div class="max-w-[60rem] px-8 mx-auto flex flex-col">
 		<!-- title -->
 		<h1 class="font-bold text-3xl/snug lg:text-4xl/snug xl:text-5xl/snug text-secondary">
 			Frequently asked questions

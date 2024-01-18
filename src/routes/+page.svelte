@@ -7,7 +7,7 @@
 	import FaqSection from '$lib/components/FaqSection.svelte';
 </script>
 
-<main id="homePage">
+<main id="HomePage">
 	<Hero />
 	<Services />
 	<Team />
