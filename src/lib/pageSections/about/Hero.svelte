@@ -4,7 +4,7 @@
 	<!-- title and description  -->
 	<div class="text-center max-w-[40rem] mx-auto px-4 sm:px-12">
 		<h1 class="font-bold text-secondary text-5xl/tight lg:text-6xl/tight py-8">Why RA Global</h1>
-		<p class="font-medium text-base md:text-lg xl:text-xl">
+		<p class="font-medium text-base md:text-lg/relaxed xl:text-xl/relaxed">
 			We redefine education through personalized scholarship opportunities, inclusive communities,
 			and unwavering commitment to academic success. We stand as your trusted partner, unlocking
 			transformative educational experiences with precision and care.
@@ -45,3 +45,9 @@
 		</p>
 	</div>
 </section>
+
+<style>
+	#AboutHero {
+		background: linear-gradient(to bottom, #fff9f3 0%, #fff9f3 90%, #f3f0ed 100%);
+	}
+</style>

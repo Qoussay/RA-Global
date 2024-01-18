@@ -11,7 +11,13 @@ export default {
 			'accent-highlight': '#fbbf70',
 			'base-110': '#a88763'
 		},
-		extend: {}
+		extend: {
+			backgroundImage: {
+				redCircle: "url('/images/patterns/primaryCircle.png')",
+				blueCircle: "url('/images/patterns/secondaryCircle.png')",
+				yellowCircle: "url('/images/patterns/accentCircle.png')"
+			}
+		}
 	},
 	daisyui: {
 		themes: [
