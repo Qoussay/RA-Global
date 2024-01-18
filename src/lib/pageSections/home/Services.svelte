@@ -19,7 +19,7 @@
 			<h1 class="font-bold text-secondary text-3xl/snug lg:text-4xl/snug xl:text-5xl/snug">
 				Empowering Your Academic Journey with Expert Guidance and Opportunities.
 			</h1>
-			<p class="font-medium text-base xl:text-lg my-8">
+			<p class="font-medium text-base/relaxed xl:text-lg/relaxed my-8">
 				We are your partners in academic excellence, offering personalized services to connect you
 				with tailored scholarship and educational opportunities. Our commitment is to guide you
 				through the process, ensuring you access meaningful learning experiences on your journey to
@@ -49,7 +49,7 @@
 				<h1 class="font-bold text-secondary text-2xl/tight lg:text-3xl/snug xl:text-4xl/snug">
 					Scholarship Opportunities
 				</h1>
-				<p class="font-medium text-base xl:text-lg my-8">
+				<p class="font-medium text-base/relaxed xl:text-lg/relaxed my-8">
 					At RA Global, we go beyond guidance, dedicating ourselves to steering you toward academic
 					success. Understanding your aspirations, we carefully curate personalized scholarship and
 					educational opportunities, ensuring you access a diverse spectrum that propels your
@@ -76,7 +76,7 @@
 				<h1 class="font-bold text-secondary text-2xl/tight lg:text-3xl/snug xl:text-4xl/snug">
 					Gateway to Academic Success
 				</h1>
-				<p class="font-medium text-base xl:text-lg my-8">
+				<p class="font-medium text-base/relaxed xl:text-lg/relaxed my-8">
 					We specialize in forging connections with esteemed universities, providing you access to
 					state-of-the-art educational programs. Our expert guidance and tailored support propel you
 					towards a future of unparalleled educational achievement.
