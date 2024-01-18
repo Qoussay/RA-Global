@@ -39,7 +39,7 @@
 
 <!-- brand logo section -->
 <section id="BrandLogo" class="bg-base-300 flex flex-col justify-center py-24">
-	<img src="/images/hatRed.png" alt="brand logo" class="2xl:w-64 w-44 mx-auto" />
+	<img src="/images/hatRed.png" alt="brand logo" class="w-36 lg:w-44 xl:w-64 mx-auto" />
 	<h1
 		class="font-bold text-secondary text-center text-3xl/tight lg:text-4xl/tight xl:text-5xl/tight mb-8 mt-4"
 	>
@@ -51,12 +51,12 @@
 </section>
 
 <!-- footer  -->
-<footer class="bg-base-100 pb-8 py-12 px-8 font-medium">
+<footer class="bg-base-100 pb-8 pt-12 px-8 font-medium">
 	<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
 		<!-- brand logo and social links  -->
 		<div class="md:col-span-2">
 			<img src="/images/fullRed.png" alt="brand logo" class="w-40 lg:w-44 xl:w-56" />
-			<p class="text-sm/relaxed sm:text-base/relaxed xl:text-lg/relaxed mt-8 mb-4 lg:w-3/4">
+			<p class="text-sm/relaxed lg:text-base/relaxed xl:text-lg/relaxed mt-8 mb-4 lg:w-3/4">
 				RA Global is a leading education consultancy firm, connecting North African students to
 				tailored scholarship and educational opportunities in Asia.
 			</p>
