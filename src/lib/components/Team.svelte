@@ -18,7 +18,7 @@
 		class="flex flex-col lg:flex-row-reverse max-w-[100rem] px-8 mx-auto space-y-12 lg:space-y-0"
 	>
 		<!-- description  -->
-		<div class="flex flex-col justify-center lg:w-1/2 mx-auto">
+		<div class="flex flex-col justify-center lg:w-1/2 mx-auto max-w-[40rem] lg:max-w-[100rem]">
 			<Pill text="You are in good hands" />
 			<h1 class="font-bold text-secondary text-2xl/tight lg:text-3xl/snug xl:text-4xl/snug">
 				Meet the faces behind RA Global
@@ -45,7 +45,9 @@
 			</div>
 		</div>
 		<!-- founders photos  -->
-		<div class="flex flex-row lg:w-1/2 mx-auto space-x-12 lg:space-x-0">
+		<div
+			class="flex flex-row lg:w-1/2 mx-auto space-x-12 lg:space-x-0 max-w-[40rem] lg:max-w-[100rem]"
+		>
 			<!-- qoussay photo  -->
 			<div class="w-1/2">
 				<img src="/images/qoussay.png" alt="qoussay" class="lg:w-3/4 mx-auto" />
