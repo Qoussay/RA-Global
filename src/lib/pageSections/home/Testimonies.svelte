@@ -1,5 +1,5 @@
 <script>
-	import StudentTestimonyCard from './StudentTestimonyCard.svelte';
+	import StudentTestimonyCard from '$lib/components/StudentTestimonyCard.svelte';
 
 	const studentTestimonies = [
 		{
@@ -30,9 +30,9 @@
 </script>
 
 <section id="Testimonies" class="py-24 bg-primary-highlight">
-	<div class="max-w-[100rem] px-8 mx-auto flex flex-col">
+	<div class="max-w-[100rem] px-8 sm:px-12 mx-auto flex flex-col">
 		<!-- general idea  -->
-		<div class="flex flex-col text-center w-full lg:w-3/4 mx-auto">
+		<div class="flex flex-col text-center lg:w-3/4 mx-auto max-w-[40rem] lg:max-w-[100rem]">
 			<h1 class="font-bold text-neutral text-3xl/snug lg:text-4xl/snug xl:text-5xl/snug">
 				See what students are saying about us
 			</h1>

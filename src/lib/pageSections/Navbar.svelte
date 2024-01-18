@@ -1,9 +1,9 @@
 <script>
 	import ContactInfo from '$lib/components/ContactInfo.svelte';
-	import Navigation from './Navigation.svelte';
+	import Navigation from '$lib/components/Navigation.svelte';
 </script>
 
-<section id="Navbar" class="max-w-[100rem] px-4 sm:px-8 mx-auto">
+<section id="Navbar" class="max-w-[100rem] px-4 sm:px-12 mx-auto">
 	<div class="flex flex-row justify-between lg:flex-col">
 		<div class="flex flex-row justify-between py-4 xl:py-6 border-b-0 lg:border-b-2 border-neutral">
 			<!-- company logo  -->

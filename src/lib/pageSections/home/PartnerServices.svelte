@@ -1,12 +1,12 @@
 <script>
-	import Button from './Button.svelte';
-	import Pill from './Pill.svelte';
+	import Button from '$lib/components/Button.svelte';
+	import Pill from '$lib/components/Pill.svelte';
 </script>
 
 <section id="PartnerServices" class="py-20 bg-base-300">
-	<div class="max-w-[100rem] px-8 mx-auto flex flex-col">
+	<div class="max-w-[100rem] px-8 sm:px-12 mx-auto flex flex-col">
 		<!-- general idea  -->
-		<div class="flex flex-col text-center w-full lg:w-3/4 mx-auto">
+		<div class="flex flex-col text-center lg:w-3/4 mx-auto max-w-[40rem] lg:max-w-[100rem]">
 			<div class="flex justify-center">
 				<Pill text="Strategic Academic Partnerships" />
 			</div>

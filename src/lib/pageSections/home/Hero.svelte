@@ -1,13 +1,17 @@
 <script>
 	import { text } from '@sveltejs/kit';
-	import Pill from './Pill.svelte';
-	import Button from './Button.svelte';
+	import Pill from '$lib/components/Pill.svelte';
+	import Button from '$lib/components/Button.svelte';
 </script>
 
 <section id="Hero" class="py-20">
-	<div class="max-w-[100rem] px-8 mx-auto flex flex-col lg:flex-row space-y-12 lg:space-y-0">
+	<div
+		class="max-w-[100rem] px-8 sm:px-12 mx-auto flex flex-col lg:flex-row space-y-12 lg:space-y-0"
+	>
 		<!-- title panel  -->
-		<div class="w-full lg:w-1/2 text-center lg:text-left flex flex-col justify-center">
+		<div
+			class="w-full lg:w-1/2 text-center lg:text-left flex flex-col justify-center mx-auto max-w-[40rem] lg:max-w-[100rem]"
+		>
 			<div class="flex justify-center lg:justify-start">
 				<Pill text="Welcome to RA Global" />
 			</div>
@@ -24,7 +28,7 @@
 			</div>
 		</div>
 		<!-- hero image  -->
-		<div class="w-full lg:w-1/2">
+		<div class="w-full lg:w-1/2 mx-auto max-w-[40rem] lg:max-w-[100rem]">
 			<img src="/images/hero.png" alt="hero" class="w-full mx-auto px-4 lg:px-0" />
 		</div>
 	</div>

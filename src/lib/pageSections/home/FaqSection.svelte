@@ -1,5 +1,5 @@
 <script>
-	import FAQ from './FAQ.svelte';
+	import FAQ from '$lib/components/FAQ.svelte';
 
 	const faqArray = [
 		{
@@ -36,19 +36,21 @@
 </script>
 
 <section id="FAQ" class="py-20 bg-base-200">
-	<div class="max-w-[60rem] px-8 mx-auto flex flex-col">
-		<!-- title -->
-		<h1 class="font-bold text-3xl/snug lg:text-4xl/snug xl:text-5xl/snug text-secondary">
-			Frequently asked questions
-		</h1>
-		<!-- description  -->
-		<p class="font-medium text-base xl:text-lg my-8 lg:w-3/4">
-			Explore our FAQ section for quick answers to common queries about our services, admissions,
-			and support. Have a question not covered? Feel free to reach out, and we'll be happy to assist
-			you!
-		</p>
+	<div class="max-w-[60rem] px-8 sm:px-12 mx-auto flex flex-col">
+		<div class="mx-auto max-w-[40rem] lg:max-w-[100rem]">
+			<!-- title -->
+			<h1 class="font-bold text-3xl/snug lg:text-4xl/snug xl:text-5xl/snug text-secondary">
+				Frequently asked questions
+			</h1>
+			<!-- description  -->
+			<p class="font-medium text-base xl:text-lg my-8 lg:w-3/4">
+				Explore our FAQ section for quick answers to common queries about our services, admissions,
+				and support. Have a question not covered? Feel free to reach out, and we'll be happy to
+				assist you!
+			</p>
+		</div>
 		<!-- Q&A  -->
-		<div>
+		<div class="mx-auto lg:mx-0 max-w-[40rem] lg:max-w-[100rem] w-full">
 			{#each faqArray as f}
 				<FAQ data={f} />
 			{/each}

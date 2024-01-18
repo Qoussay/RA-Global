@@ -1,6 +1,6 @@
 <script>
-	import Button from './Button.svelte';
-	import Pill from './Pill.svelte';
+	import Button from '$lib/components/Button.svelte';
+	import Pill from '$lib/components/Pill.svelte';
 	import CheckCircle from '~icons/tdesign/check-circle-filled';
 
 	const services = [
@@ -13,9 +13,9 @@
 </script>
 
 <section id="Services" class="py-20">
-	<div class="max-w-[100rem] px-8 mx-auto flex flex-col space-y-12 lg:space-y-0">
+	<div class="max-w-[100rem] px-8 sm:px-12 mx-auto flex flex-col space-y-12 lg:space-y-0">
 		<!-- geral idea  -->
-		<div class="flex flex-col text-center w-full lg:w-3/4 mx-auto">
+		<div class="flex flex-col text-center w-full lg:w-3/4 mx-auto max-w-[40rem] lg:max-w-[100rem]">
 			<h1 class="font-bold text-secondary text-3xl/snug lg:text-4xl/snug xl:text-5xl/snug">
 				Empowering Your Academic Journey with Expert Guidance and Opportunities.
 			</h1>
@@ -36,7 +36,9 @@
 			</p>
 		</div>
 		<!-- service one  -->
-		<div class="flex flex-col lg:flex-row space-y-8 lg:space-y-0">
+		<div
+			class="flex flex-col lg:flex-row space-y-8 lg:space-y-0 mx-auto max-w-[40rem] lg:max-w-[100rem]"
+		>
 			<!-- image  -->
 			<div class="mx-auto lg:mx-0 lg:w-1/2">
 				<img src="/images/serviceOne.png" alt="service one" class="w-full lg:w-3/4 px-4 lg:px-0" />
@@ -57,7 +59,9 @@
 			</div>
 		</div>
 		<!-- service two  -->
-		<div class="flex flex-col lg:flex-row-reverse space-y-8 lg:space-y-0">
+		<div
+			class="flex flex-col lg:flex-row-reverse space-y-8 lg:space-y-0 mx-auto max-w-[40rem] lg:max-w-[100rem]"
+		>
 			<!-- image  -->
 			<div class="mx-auto lg:mx-0 lg:w-1/2">
 				<img

@@ -1,6 +1,6 @@
 <script>
 	import '../app.css';
-	import Navbar from '$lib/components/Navbar.svelte';
+	import Navbar from '$lib/pageSections/Navbar.svelte';
 	import Button from '$lib/components/Button.svelte';
 	import ContactInfo from '$lib/components/ContactInfo.svelte';
 	import FacebookIcon from '~icons/ic/round-facebook';

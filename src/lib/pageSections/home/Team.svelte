@@ -1,5 +1,5 @@
 <script>
-	import Pill from './Pill.svelte';
+	import Pill from '$lib/components/Pill.svelte';
 	import Certificate from '~icons/tabler/certificate';
 	import CheckCircle from '~icons/tdesign/check-circle-filled';
 
@@ -15,7 +15,7 @@
 
 <section id="Team" class="py-24 bg-base-300">
 	<div
-		class="flex flex-col lg:flex-row-reverse max-w-[100rem] px-8 mx-auto space-y-12 lg:space-y-0"
+		class="flex flex-col lg:flex-row-reverse max-w-[100rem] px-8 sm:px-12 mx-auto space-y-12 lg:space-y-0"
 	>
 		<!-- description  -->
 		<div class="flex flex-col justify-center lg:w-1/2 mx-auto max-w-[40rem] lg:max-w-[100rem]">
