@@ -3,13 +3,27 @@
 	import { text } from '@sveltejs/kit';
 </script>
 
-<section id="AboutServices" class="bg-base-300 px-4 sm:px-12">
+<section id="AboutServices" class="bg-base-300 px-4 sm:px-12 py-8">
 	<div class="mx-auto max-w-[30rem] lg:max-w-[100rem] flex flex-col space-y-14 lg:space-y-24">
+		<!-- title -->
+		<div class="mx-auto lg:w-2/3">
+			<h1
+				class="font-bold text-secondary text-3xl/snug lg:text-4xl/snug xl:text-5xl/snug text-center relative z-20"
+			>
+				A Gateway for Every Student's
+				<div class="mx-auto">Educational Journey</div>
+			</h1>
+			<img
+				src="/images/patterns/accentHighlight.png"
+				alt="yellow highlight"
+				class="h-6 xl:h-8 w-full max-w-[18rem] lg:max-w-[21rem] xl:max-w-[29rem] mx-auto relative -top-2 lg:-top-3"
+			/>
+		</div>
 		<!-- first service -->
 		<div class="flex flex-col space-y-12 lg:space-y-0 lg:flex-row-reverse">
 			<!-- image -->
 			<div
-				class="lg:w-1/2 lg:bg-redCircle lg:bg-contain lg:bg-center lg:bg-no-repeat lg:py-8 lg:h-fit lg:my-auto"
+				class="lg:basis-1/2 lg:bg-redCircle lg:bg-contain lg:bg-center lg:bg-no-repeat lg:py-8 lg:h-fit lg:my-auto"
 			>
 				<div class="relative">
 					<img
@@ -18,10 +32,14 @@
 						class="absolute -top-4 -end-4 w-1/4"
 					/>
 				</div>
-				<img src="/images/about4.png" alt="about service one" class="lg:ms-auto w-full lg:w-3/4" />
+				<img
+					src="/images/aboutService1.png"
+					alt="about service one"
+					class="lg:ms-auto w-full lg:w-3/4"
+				/>
 			</div>
 			<!-- title and description -->
-			<div class="lg:w-1/2 my-auto">
+			<div class="lg:basis-1/2 my-auto">
 				<Pill text="Compassionate. Visionary. Empowering." />
 				<h1 class="text-2xl/tight lg:text-3xl/snug xl:text-4xl/snug font-bold text-secondary">
 					Nurturing Caring and Responsible Global Leaders
@@ -40,7 +58,7 @@
 		<div class="flex flex-col space-y-12 lg:space-y-0 lg:flex-row">
 			<!-- image -->
 			<div
-				class="lg:w-1/2 lg:bg-yellowCircle lg:bg-contain lg:bg-center lg:bg-no-repeat lg:py-8 lg:h-fit lg:my-auto"
+				class="lg:basis-1/2 lg:bg-yellowCircle lg:bg-contain lg:bg-center lg:bg-no-repeat lg:py-8 lg:h-fit lg:my-auto"
 			>
 				<div class="relative">
 					<img
@@ -49,10 +67,14 @@
 						class="absolute -top-4 -start-4 w-1/4"
 					/>
 				</div>
-				<img src="/images/about3.png" alt="about service one" class="lg:me-auto w-full lg:w-3/4" />
+				<img
+					src="/images/aboutService2.png"
+					alt="about service one"
+					class="lg:me-auto w-full lg:w-3/4"
+				/>
 			</div>
 			<!-- title and description -->
-			<div class="lg:w-1/2 my-auto">
+			<div class="lg:basis-1/2 my-auto">
 				<Pill text="Supportive Ecosystem" />
 				<h1 class="text-2xl/tight lg:text-3xl/snug xl:text-4xl/snug font-bold text-secondary">
 					Providing the Attention They Deserve
@@ -71,7 +93,7 @@
 		<div class="flex flex-col space-y-12 lg:space-y-0 lg:flex-row-reverse">
 			<!-- image -->
 			<div
-				class="lg:w-1/2 lg:bg-blueCircle lg:bg-contain lg:bg-center lg:bg-no-repeat lg:py-8 lg:h-fit lg:my-auto"
+				class="lg:basis-1/2 lg:bg-blueCircle lg:bg-contain lg:bg-center lg:bg-no-repeat lg:py-8 lg:h-fit lg:my-auto"
 			>
 				<div class="relative">
 					<img
@@ -80,10 +102,14 @@
 						class="absolute -top-4 -end-4 w-1/4"
 					/>
 				</div>
-				<img src="/images/about5.png" alt="about service one" class="lg:ms-auto w-full lg:w-3/4" />
+				<img
+					src="/images/aboutService3.png"
+					alt="about service one"
+					class="lg:ms-auto w-full lg:w-3/4"
+				/>
 			</div>
 			<!-- title and description -->
-			<div class="lg:w-1/2 my-auto">
+			<div class="lg:basis-1/2 my-auto">
 				<Pill text="Tailored Educational Journeys" />
 				<h1 class="text-2xl/tight lg:text-3xl/snug xl:text-4xl/snug font-bold text-secondary">
 					Crafting Personalized Education Programs
