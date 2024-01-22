@@ -38,13 +38,13 @@
 </script>
 
 <!-- Normal Navigation Links  -->
-<div class="hidden lg:flex lg:flex-row lg:pt-4 lg:justify-between">
+<div class="hidden lg:flex lg:flex-row lg:pt-3 lg:justify-between">
 	<ul class="flex flex-row space-x-8">
 		{#each routes as route}
 			<li class="my-auto">
 				<a
 					href={route.path}
-					class="hover:text-secondary-highlight pb-2 duration-200 text-base xl:text-lg font-semibold"
+					class="hover:text-secondary text-neutral pb-2 duration-200 text-base xl:text-lg font-semibold"
 					aria-current={$page.url.pathname === route.path}
 				>
 					{route.name}
@@ -60,8 +60,8 @@
 	<input type="checkbox" id="menu-toggle" class="hidden" bind:checked={menuToggled} />
 	<label
 		for="menu-toggle"
-		class="flex items-center cursor-pointer z-10"
-		class:text-base-200={menuToggled}
+		class="flex items-center cursor-pointer relative z-40"
+		class:text-white={menuToggled}
 		class:text-secondary={!menuToggled}
 	>
 		<MenuIcon class="w-10 h-10" />
@@ -77,7 +77,7 @@
 					<li class="w-fit mx-auto text-white">
 						<a
 							href={route.path}
-							class="hover:text-neutral pb-2 duration-200 text-lg font-semibold"
+							class="hover:text-base-100 pb-2 duration-200 text-lg font-semibold"
 							aria-current={$page.url.pathname === route.path}
 							on:click={() => (menuToggled = false)}
 						>
@@ -97,7 +97,7 @@
 	a:after {
 		display: block;
 		content: '';
-		height: 5px;
+		height: 4px;
 		background: #fbaf4d;
 		transform: scaleX(0);
 		transition: transform 250ms ease-in-out;
@@ -109,13 +109,13 @@
 		transition-duration: 200ms;
 	}
 	a[aria-current='true'] {
-		color: #32326a;
+		color: #000046;
 	}
 
 	a[aria-current='true']:after {
 		display: block;
 		content: '';
-		height: 5px;
+		height: 4px;
 		background: #fbaf4d;
 		transform: scaleX(1);
 		padding-bottom: 4%;
@@ -124,7 +124,7 @@
 
 	@media (max-width: 1024px) {
 		a[aria-current='true'] {
-			color: #f2e3d3;
+			color: #ffffff;
 		}
 	}
 </style>

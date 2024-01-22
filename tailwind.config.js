@@ -9,7 +9,7 @@ export default {
 			'primary-highlight': '#a44648',
 			'secondary-highlight': '#32326a',
 			'accent-highlight': '#fbbf70',
-			'base-110': '#E1BD98'
+			'base-110': '#e5e6eb'
 		},
 		extend: {
 			backgroundImage: {
@@ -26,10 +26,10 @@ export default {
 					primary: '#8e191b',
 					secondary: '#000046',
 					accent: '#fbaf4d',
-					neutral: '#f2e3d3',
-					'base-100': '#fff6eb',
-					'base-200': '#fff9f3',
-					'base-300': '#F3F0ED',
+					neutral: '#575757',
+					'base-100': '#f8f8fa',
+					'base-200': '#FEF6EB',
+					'base-300': '#fbefdf',
 					info: '#bae6fd',
 					success: '#84cc80',
 					warning: '#fde047',

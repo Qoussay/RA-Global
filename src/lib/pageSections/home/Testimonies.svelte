@@ -8,7 +8,7 @@
 			stars: 5,
 			quote:
 				'RA Global played a pivotal role in guiding me toward a scholarship that perfectly aligned with my academic goals. Their personalized approach and unwavering support made the entire process seamless and rewarding',
-			bgColor: 'bg-base-100'
+			bgColor: 'bg-base-200'
 		},
 		{
 			name: 'Adem Ghanmi',
@@ -24,19 +24,19 @@
 			stars: 5,
 			quote:
 				'RA Global exceeded my expectations in every aspect. From helping me explore scholarship options to facilitating a smooth enrollment process, their commitment to my academic success was evident. I highly recommend their services to any student aspiring for excellence.',
-			bgColor: 'bg-base-300'
+			bgColor: 'bg-base-200'
 		}
 	];
 </script>
 
-<section id="Testimonies" class="py-24 bg-primary-highlight">
+<section id="Testimonies" class="py-24 bg-primary">
 	<div class="max-w-[100rem] px-8 sm:px-12 mx-auto flex flex-col">
 		<!-- general idea  -->
 		<div class="flex flex-col text-center lg:w-3/4 mx-auto max-w-[40rem] lg:max-w-[100rem]">
-			<h1 class="font-bold text-neutral text-3xl/snug lg:text-4xl/snug xl:text-5xl/snug">
+			<h1 class="font-bold text-base-200 text-3xl/snug lg:text-4xl/snug xl:text-5xl/snug">
 				See what students are saying about us
 			</h1>
-			<p class="font-medium text-base-200 text-base xl:text-lg my-8">
+			<p class="font-medium text-base-100 text-base xl:text-lg my-8">
 				Discover firsthand experiences shared by our students. Their stories illuminate the impact
 				of our educational services, shaping success stories in their academic journeys.
 			</p>

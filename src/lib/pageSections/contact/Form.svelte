@@ -3,9 +3,9 @@
 	import Form from '$lib/components/Form.svelte';
 </script>
 
-<section id="ContactForm" class="px-4 sm:px-12 py-8">
+<section id="ContactForm" class="py-8">
 	<div
-		class="flex flex-col space-y-12 lg:space-y-0 lg:flex-row mx-auto max-w-[30rem] lg:max-w-[100rem]"
+		class="flex flex-col space-y-12 lg:space-y-0 lg:flex-row mx-auto max-w-[30rem] lg:max-w-[100rem] px-8 sm:px-12"
 	>
 		<!-- text and title  -->
 		<div class="lg:basis-1/2 flex flex-col justify-center">

@@ -35,7 +35,7 @@
 	];
 </script>
 
-<section id="FAQ" class="py-20 bg-base-200">
+<section id="FAQ" class="py-20 bg-base-100">
 	<div class="max-w-[60rem] px-8 sm:px-12 mx-auto flex flex-col">
 		<div class="mx-auto max-w-[40rem] lg:max-w-[100rem]">
 			<!-- title -->

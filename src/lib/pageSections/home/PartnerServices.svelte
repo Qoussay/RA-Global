@@ -3,14 +3,14 @@
 	import Pill from '$lib/components/Pill.svelte';
 </script>
 
-<section id="PartnerServices" class="py-20 bg-base-300">
+<section id="PartnerServices" class="py-20 bg-base-100">
 	<div class="max-w-[100rem] px-8 sm:px-12 mx-auto flex flex-col">
 		<!-- general idea  -->
-		<div class="flex flex-col text-center lg:w-3/4 mx-auto max-w-[40rem] lg:max-w-[100rem]">
+		<div class="flex flex-col text-center lg:w-2/3 mx-auto max-w-[40rem] lg:max-w-[100rem]">
 			<div class="flex justify-center">
 				<Pill text="Strategic Academic Partnerships" />
 			</div>
-			<h1 class="font-bold text-secondary text-3xl/snug lg:text-4xl/snug xl:text-5xl/snug">
+			<h1 class="font-bold text-secondary text-2xl/snug lg:text-3xl/snug xl:text-4xl/snug">
 				Elevating Asian Universities in North Africa
 			</h1>
 			<p class="font-medium text-base xl:text-lg my-8">
@@ -23,7 +23,7 @@
 		<!-- services grid  -->
 		<div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 mt-8">
 			<!-- service one  -->
-			<div class="flex flex-col bg-base-100 rounded-2xl shadow-md p-8">
+			<div class="flex flex-col bg-base-200 rounded-2xl shadow-md p-8">
 				<!-- title  -->
 				<h1 class="font-bold text-secondary text-xl xl:text-2xl">Impactful On-Ground Events</h1>
 				<!-- description  -->
@@ -51,7 +51,7 @@
 				<Button text="Learn More" nav="/partners" />
 			</div>
 			<!-- service three  -->
-			<div class="flex flex-col bg-base-100 rounded-2xl shadow-md p-8">
+			<div class="flex flex-col bg-base-200 rounded-2xl shadow-md p-8">
 				<!-- title  -->
 				<h1 class="font-bold text-secondary text-xl xl:text-2xl">Tailored Marketing Strategies</h1>
 				<!-- description  -->
