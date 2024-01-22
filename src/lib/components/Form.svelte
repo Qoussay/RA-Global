@@ -51,6 +51,12 @@
 			></textarea>
 		</label>
 	</div>
+	<!-- submit button  -->
+	<button
+		class="font-semibold w-fit bg-accent hover:bg-accent-highlight text-sm xl:text-base rounded-full py-3 px-6 mt-8"
+	>
+		Send message
+	</button>
 </form>
 <div class="relative">
 	<img

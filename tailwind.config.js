@@ -9,7 +9,7 @@ export default {
 			'primary-highlight': '#a44648',
 			'secondary-highlight': '#32326a',
 			'accent-highlight': '#fbbf70',
-			'base-110': '#a88763'
+			'base-110': '#E1BD98'
 		},
 		extend: {
 			backgroundImage: {

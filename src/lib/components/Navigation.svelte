@@ -55,7 +55,7 @@
 	<Button text="Enroll today" nav="/contact" />
 </div>
 <!-- medium screen navigation drawer  -->
-<div class="flex lg:hidden z-10">
+<div class="flex lg:hidden z-30">
 	<!-- Menu Toggle  -->
 	<input type="checkbox" id="menu-toggle" class="hidden" bind:checked={menuToggled} />
 	<label
