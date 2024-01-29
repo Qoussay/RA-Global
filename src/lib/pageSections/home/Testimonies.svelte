@@ -29,14 +29,14 @@
 	];
 </script>
 
-<section id="Testimonies" class="py-24 bg-primary">
+<section id="Testimonies" class="py-24 bg-neutral">
 	<div class="max-w-[100rem] px-8 sm:px-12 mx-auto flex flex-col">
 		<!-- general idea  -->
 		<div class="flex flex-col text-center lg:w-3/4 mx-auto max-w-[40rem] lg:max-w-[100rem]">
-			<h1 class="font-bold text-base-200 text-3xl/snug lg:text-4xl/snug xl:text-5xl/snug">
+			<h1 class="font-bold text-accent text-3xl/snug lg:text-4xl/snug xl:text-5xl/snug">
 				See what students are saying about us
 			</h1>
-			<p class="font-medium text-base-100 text-base xl:text-lg my-8">
+			<p class="font-medium text-base-100 text-base xl:text-lg my-8 mx-auto lg:w-2/3">
 				Discover firsthand experiences shared by our students. Their stories illuminate the impact
 				of our educational services, shaping success stories in their academic journeys.
 			</p>

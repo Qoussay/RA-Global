@@ -36,10 +36,10 @@
 <slot />
 
 <!-- brand logo section -->
-<section id="BrandLogo" class="bg-base-100 flex flex-col justify-center py-24">
-	<img src="/images/hatRed.png" alt="brand logo" class="w-36 lg:w-44 xl:w-64 mx-auto" />
+<section id="BrandLogo" class="bg-base-100 flex flex-col justify-center py-12 lg:py-20">
+	<img src="/images/hatRed.png" alt="brand logo" class="w-36 lg:w-40 xl:w-52 mx-auto" />
 	<h1
-		class="font-bold text-secondary text-center text-3xl/tight lg:text-4xl/tight xl:text-5xl/tight mb-8 mt-4"
+		class="font-bold text-secondary text-center text-3xl/tight lg:text-3xl/tight xl:text-4xl/tight mb-8 mt-4"
 	>
 		Bridging Borders,<br />Fostering Futures
 	</h1>
@@ -53,8 +53,8 @@
 	<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
 		<!-- brand logo and social links  -->
 		<div class="md:col-span-2">
-			<img src="/images/fullRed.png" alt="brand logo" class="w-40 lg:w-44 xl:w-56" />
-			<p class="text-sm/relaxed lg:text-base/relaxed xl:text-lg/relaxed mt-8 mb-4 lg:w-3/4">
+			<img src="/images/fullRed.png" alt="brand logo" class="w-40 lg:w-44" />
+			<p class="text-sm/relaxed lg:text-base/relaxed mt-5 mb-4 lg:w-3/4">
 				RA Global is a leading education consultancy firm, connecting North African students to
 				tailored scholarship and educational opportunities in Asia.
 			</p>
@@ -72,11 +72,11 @@
 		</div>
 		<!-- site link  -->
 		<div>
-			<h1 class="text-secondary font-semibold text-lg xl:text-xl">Site Links</h1>
+			<h1 class="text-secondary font-semibold text-base lg:text-lg">Site Links</h1>
 			<div class="flex flex-col space-y-2 mt-4">
 				{#each routes as r}
 					<a
-						class="text-sm sm:text-base xl:text-lg border-b-2 border-b-neutral last:border-b-0 md:w-3/4 pb-2 hover:text-secondary-highlight font-medium"
+						class="text-sm lg:text-base border-b-2 border-b-neutral last:border-b-0 md:w-3/4 pb-2 hover:text-secondary-highlight font-medium"
 						href={r.path}>{r.name}</a
 					>
 				{/each}
@@ -84,7 +84,7 @@
 		</div>
 		<!-- contact us details  -->
 		<div>
-			<h1 class="text-secondary font-semibold text-lg xl:text-xl">Contact us</h1>
+			<h1 class="text-secondary font-semibold text-base lg:text-lg">Contact us</h1>
 			<div class="flex flex-col space-y-4 xl:space-y-8 mt-4 xl:mt-8">
 				<ContactInfo type="email" />
 				<ContactInfo type="phone" />
@@ -92,9 +92,9 @@
 		</div>
 	</div>
 	<!-- divider  -->
-	<hr class="border-neutral mt-8 xl:mt-12 mb-6 xl:mb-8" />
+	<hr class="border-neutral lg:my-6 my-4" />
 	<!-- credits  -->
-	<p class="text-xs sm:text-sm xl:text-base">© 2024 Rezgani Akkari Global. All rights reserved.</p>
+	<p class="text-xs sm:text-sm lg:text-base">© 2024 Rezgani Akkari Global. All rights reserved.</p>
 </footer>
 
 <style>
@@ -102,10 +102,10 @@
 		display: block;
 		content: '';
 		background-color: #fbaf4d;
-		height: 6px;
+		height: 5px;
 		width: 10%;
 		border-radius: 25px;
-		margin-top: 1%;
+		margin-top: 0.5%;
 		margin-bottom: 3%;
 	}
 
