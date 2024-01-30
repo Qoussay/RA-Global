@@ -1,4 +1,6 @@
-<script></script>
+<script>
+	import { enhance } from '$app/forms';
+</script>
 
 <!-- pattern 1 -->
 <div class="relative">
@@ -11,8 +13,11 @@
 <form
 	class="bg-white border-[1px] border-secondary px-12 py-14 rounded-3xl z-20 relative text-sm xl:text-base"
 	name="contact"
-	netlify
+	method="POST"
+	data-netlify="true"
+	use:enhance
 >
+	<input type="hidden" name="form-name" value="contact" />
 	<h2 class="font-semibold text-xl xl:text-2xl text-primary">Send us a message</h2>
 	<p class="font-medium py-1">We'll get back to you within 24 hours.</p>
 	<!-- input fields  -->
@@ -22,6 +27,7 @@
 			Name *
 			<input
 				type="text"
+				name="name"
 				placeholder="John Doe"
 				class="input input-bordered input-secondary bg-white w-full block rounded-xl mt-1"
 			/>
@@ -31,6 +37,7 @@
 			Email *
 			<input
 				type="email"
+				name="email"
 				placeholder="john@email.com"
 				class="input input-bordered input-secondary bg-white w-full block rounded-xl mt-1"
 			/>
@@ -40,6 +47,7 @@
 			Phone *
 			<input
 				type="text"
+				name="phone"
 				placeholder="(123) 45-6789"
 				class="input input-bordered input-secondary bg-white w-full block rounded-xl mt-1"
 			/>
@@ -49,6 +57,7 @@
 			Message *
 			<textarea
 				class="textarea textarea-bordered textarea-secondary bg-white w-full block rounded-xl mt-1"
+				name="message"
 				placeholder="Message"
 			></textarea>
 		</label>
