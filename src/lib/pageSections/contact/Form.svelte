@@ -29,6 +29,6 @@
 
 <style>
 	#ContactForm {
-		background: linear-gradient(to bottom, #fff9f3 0%, #fff9f3 85%, #32326a 85%, #32326a 100%);
+		background: linear-gradient(to bottom, #f8f8fa 0%, #f8f8fa 85%, #32326a 85%, #32326a 100%);
 	}
 </style>

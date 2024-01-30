@@ -10,6 +10,8 @@
 </div>
 <form
 	class="bg-white border-[1px] border-secondary px-12 py-14 rounded-3xl z-20 relative text-sm xl:text-base"
+	name="contact"
+	netlify
 >
 	<h2 class="font-semibold text-xl xl:text-2xl text-primary">Send us a message</h2>
 	<p class="font-medium py-1">We'll get back to you within 24 hours.</p>
@@ -54,6 +56,7 @@
 	<!-- submit button  -->
 	<button
 		class="font-semibold w-fit bg-accent hover:bg-accent-highlight text-sm xl:text-base rounded-full py-3 px-6 mt-8"
+		type="submit"
 	>
 		Send message
 	</button>

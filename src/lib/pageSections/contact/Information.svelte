@@ -15,36 +15,36 @@
 		</p>
 		<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 my-8">
 			<!-- email  -->
-			<div class="grid grid-cols-4 py-5 bg-neutral rounded-2xl text-secondary-highlight">
+			<div class="grid grid-cols-4 py-5 bg-base-100 rounded-2xl text-secondary-highlight">
 				<MailIcon
-					class="col-span-1 w-11 xl:w-12 h-11 xl:h-12 p-3 rounded-2xl bg-base-110 mx-auto"
+					class="col-span-1 w-11 xl:w-12 h-11 xl:h-12 p-3 rounded-2xl bg-base-300 mx-auto shadow-md"
 				/>
 				<div class=" col-span-3">
 					<p class="font-semibold text-lg lg:text-xl">Email</p>
 					<p class="py-1 text-base lg:text-lg">info@raglobal.tn</p>
 				</div>
 			</div>
-			<div class="grid grid-cols-4 py-5 bg-neutral rounded-2xl text-secondary-highlight">
+			<div class="grid grid-cols-4 py-5 bg-base-100 rounded-2xl text-secondary-highlight">
 				<PhoneIcon
-					class="col-span-1 w-11 xl:w-12 h-11 xl:h-12 p-3 rounded-2xl bg-base-110 mx-auto"
+					class="col-span-1 w-11 xl:w-12 h-11 xl:h-12 p-3 rounded-2xl bg-base-300 mx-auto shadow-md"
 				/>
 				<div class=" col-span-3">
 					<p class="font-semibold text-lg lg:text-xl">Call us</p>
 					<p class="py-1 text-base lg:text-lg">+216-48 063 544</p>
 				</div>
 			</div>
-			<div class="grid grid-cols-4 py-5 bg-neutral rounded-2xl text-secondary-highlight">
+			<div class="grid grid-cols-4 py-5 bg-base-100 rounded-2xl text-secondary-highlight">
 				<FacebookIcon
-					class="col-span-1 w-11 xl:w-12 h-11 xl:h-12 p-3 rounded-2xl bg-base-110 mx-auto"
+					class="col-span-1 w-11 xl:w-12 h-11 xl:h-12 p-3 rounded-2xl bg-base-300 mx-auto shadow-md"
 				/>
 				<div class=" col-span-3">
 					<p class="font-semibold text-lg lg:text-xl">Facebook</p>
 					<p class="py-1 text-base lg:text-lg">RA Global</p>
 				</div>
 			</div>
-			<div class="grid grid-cols-4 py-5 bg-neutral rounded-2xl text-secondary-highlight">
+			<div class="grid grid-cols-4 py-5 bg-base-100 rounded-2xl text-secondary-highlight">
 				<InstagramIcon
-					class="col-span-1 w-11 xl:w-12 h-11 xl:h-12 p-3 rounded-2xl bg-base-110 mx-auto"
+					class="col-span-1 w-11 xl:w-12 h-11 xl:h-12 p-3 rounded-2xl bg-base-300 mx-auto shadow-md"
 				/>
 				<div class=" col-span-3">
 					<p class="font-semibold text-lg lg:text-xl">Instagram</p>
