@@ -48,6 +48,6 @@
 
 <style>
 	#AboutHero {
-		background: linear-gradient(to bottom, #fff9f3 0%, #fff9f3 90%, #f3f0ed 100%);
+		background: linear-gradient(to bottom, #f8f8fa 0%, #f8f8fa 90%, #fef6eb 100%);
 	}
 </style>

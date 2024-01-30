@@ -3,7 +3,7 @@
 	import { text } from '@sveltejs/kit';
 </script>
 
-<section id="AboutServices" class="bg-base-300 px-4 sm:px-12 py-8">
+<section id="AboutServices" class=" bg-base-200 px-4 sm:px-12 py-8">
 	<div class="mx-auto max-w-[30rem] lg:max-w-[100rem] flex flex-col space-y-14 lg:space-y-24">
 		<!-- title -->
 		<div class="mx-auto lg:w-2/3">
@@ -58,17 +58,17 @@
 		<div class="flex flex-col space-y-12 lg:space-y-0 lg:flex-row">
 			<!-- image -->
 			<div
-				class="lg:basis-1/2 lg:bg-yellowCircle lg:bg-contain lg:bg-center lg:bg-no-repeat lg:py-8 lg:h-fit lg:my-auto"
+				class="lg:basis-1/2 lg:bg-blueCircle lg:bg-contain lg:bg-center lg:bg-no-repeat lg:py-8 lg:h-fit lg:my-auto"
 			>
 				<div class="relative">
 					<img
-						src="/images/patterns/primaryDots.png"
+						src="/images/patterns/accentDots.png"
 						alt="blue dots"
 						class="absolute -top-4 -start-4 w-1/4"
 					/>
 				</div>
 				<img
-					src="/images/aboutService2.png"
+					src="/images/aboutService3.png"
 					alt="about service one"
 					class="lg:me-auto w-full lg:w-3/4"
 				/>
@@ -93,36 +93,56 @@
 		<div class="flex flex-col space-y-12 lg:space-y-0 lg:flex-row-reverse">
 			<!-- image -->
 			<div
-				class="lg:basis-1/2 lg:bg-blueCircle lg:bg-contain lg:bg-center lg:bg-no-repeat lg:py-8 lg:h-fit lg:my-auto"
+				class="lg:basis-1/2 lg:bg-yellowCircle lg:bg-contain lg:bg-center lg:bg-no-repeat lg:py-8 lg:h-fit lg:my-auto"
 			>
 				<div class="relative">
 					<img
-						src="/images/patterns/accentDots.png"
+						src="/images/patterns/primaryDots.png"
 						alt="blue dots"
 						class="absolute -top-4 -end-4 w-1/4"
 					/>
 				</div>
 				<img
-					src="/images/aboutService3.png"
+					src="/images/aboutService2.png"
 					alt="about service one"
 					class="lg:ms-auto w-full lg:w-3/4"
 				/>
 			</div>
 			<!-- title and description -->
 			<div class="lg:basis-1/2 my-auto">
-				<Pill text="Tailored Educational Journeys" />
+				<Pill text="Empowering Your Journey Abroad" />
 				<h1 class="text-2xl/tight lg:text-3xl/snug xl:text-4xl/snug font-bold text-secondary">
-					Crafting Personalized Education Programs
+					Comprehensive Support Beyond Academics
 				</h1>
 				<p class="font-medium text-base/relaxed xl:text-lg/relaxed my-8">
-					At RA Global, we believe in crafting personalized education programs for every child. Our
-					dedication goes beyond industry norms, fueled by the journey of our founders who
-					understand the transformative power of guidance. True to our mission, we redefine
-					education consultancy in North Africa, promising a brighter future for students. With RA
-					Global, your educational aspirations become our collective priority, ensuring each child's
-					unique journey is shaped for success.
+					At RA Global, we understand the transformative experience of studying abroad and settling
+					in a new country. Beyond academic guidance, we offer comprehensive support tailored to
+					your unique journey. Whether it's providing academic assistance, offering valuable advice,
+					or organizing engaging trips and activities, we're committed to easing your transition and
+					empowering your success. With RA Global, embark on your educational journey with
+					confidence, knowing that you're not alone – we're here for you every step of the way.
 				</p>
 			</div>
+		</div>
+	</div>
+</section>
+
+<section id="Community" class="bg-neutral px-4 sm:px-12 py-12">
+	<div class="mx-auto max-w-[30rem] lg:max-w-[100rem] text-center">
+		<h1 class="font-bold text-accent text-2xl/snug lg:text-3xl/snug xl:text-4xl/snug my-4">
+			Embracing Community, Cultivating Connections
+		</h1>
+		<p class="text-white lg:w-2/3 lg:mx-auto font-medium text-base/relaxed xl:text-lg/relaxed mt-8">
+			At RA Global, we're more than just an educational consultancy – we're a family. Our vibrant
+			and inclusive community brings together individuals from diverse backgrounds, fostering
+			meaningful connections and unforgettable experiences. Join us as we embark on a journey of
+			discovery and adventure, creating lasting memories.
+		</p>
+		<div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8 mt-8">
+			<img src="/images/community1.png" alt="community one" class="mx-auto" />
+			<img src="/images/community2.png" alt="community two" class="mx-auto" />
+			<img src="/images/community3.png" alt="community three" class="mx-auto" />
+			<img src="/images/community4.png" alt="community four" class="mx-auto" />
 		</div>
 	</div>
 </section>

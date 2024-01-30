@@ -24,13 +24,13 @@
 	];
 </script>
 
-<section id="PrinciplesAndValues" class="bg-secondary-highlight text-white px-4 sm:px-12 py-16">
+<section id="PrinciplesAndValues" class=" px-4 sm:px-12 py-16">
 	<div
 		class="flex flex-col space-y-8 lg:flex-row lg:space-y-0 mx-auto max-w-[30rem] lg:max-w-[100rem]"
 	>
 		<!-- text -->
 		<div class="lg:basis-1/2">
-			<h1 class="text-3xl/snug lg:text-4xl/snug font-bold text-neutral">
+			<h1 class="text-3xl/snug lg:text-4xl/snug font-bold text-secondary">
 				Our core values and principles
 			</h1>
 			<p class="font-medium text-base/relaxed xl:text-lg/relaxed my-8">
@@ -43,7 +43,7 @@
 					<div>
 						<div>
 							<CheckCircle class="text-success inline-block align-text-top" />
-							<h1 class="font-semibold text-neutral text-base xl:text-lg inline-block">
+							<h1 class="font-semibold text-primary text-base xl:text-lg inline-block">
 								{p.title}
 							</h1>
 						</div>
