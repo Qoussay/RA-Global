@@ -14,10 +14,8 @@
 	class="bg-white border-[1px] border-secondary px-12 py-14 rounded-3xl z-20 relative text-sm xl:text-base"
 	name="contact"
 	method="POST"
-	data-netlify="true"
 	use:enhance
 >
-	<input type="hidden" name="form-name" value="contact" />
 	<h2 class="font-semibold text-xl xl:text-2xl text-primary">Send us a message</h2>
 	<p class="font-medium py-1">We'll get back to you within 24 hours.</p>
 	<!-- input fields  -->
