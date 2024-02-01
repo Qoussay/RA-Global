@@ -1,9 +1,9 @@
-import { SENDGRID_API_KEY } from '$env/static/private';
+// import { SENDGRID_API_KEY } from '$env/static/private';
 import { error } from '@sveltejs/kit';
 import { emailTemplate } from '$lib/emailTemplate.js';
 import sgMail from '@sendgrid/mail';
 
-sgMail.setApiKey(SENDGRID_API_KEY);
+sgMail.setApiKey('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');
 
 export async function POST({ request }) {
 	const data = await request.formData();
