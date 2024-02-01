@@ -10,7 +10,9 @@
 		>
 			<!-- company logo  -->
 
-			<img src="/images/fullRed.png" alt="company logo" class="w-36 lg:w-40 xl:w-42" />
+			<a href="/">
+				<img src="/images/fullRed.png" alt="company logo" class="w-36 lg:w-40 xl:w-42" />
+			</a>
 
 			<div class="lg:flex lg:flex-row lg:space-x-12 hidden">
 				<ContactInfo type="email" />
