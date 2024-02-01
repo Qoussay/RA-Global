@@ -14,7 +14,6 @@
 	class="bg-white border-[1px] border-secondary px-12 py-14 rounded-3xl z-20 relative text-sm xl:text-base"
 	name="contact"
 	method="POST"
-	action="/contact/success"
 	data-netlify="true"
 	use:enhance
 >
