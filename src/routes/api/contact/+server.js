@@ -32,7 +32,7 @@ export async function POST({ request }) {
 		},
 		subject: 'New Contact Request for RAG',
 		text: `${name} has reached out to you. Their message is: ${message}`,
-		html: emailTemplate(name, email, phone, message)
+		html: emailTemplate(name, email, message, phone)
 	};
 
 	try {
