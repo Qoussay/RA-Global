@@ -3,6 +3,7 @@ import { error } from '@sveltejs/kit';
 import { emailTemplate } from '$lib/emailTemplate.js';
 import sgMail from '@sendgrid/mail';
 
+console.log('SENDGRID_API_KEY', SENDGRID_API_KEY);
 sgMail.setApiKey(SENDGRID_API_KEY);
 
 export async function POST({ request }) {
@@ -35,7 +36,7 @@ export async function POST({ request }) {
 	};
 
 	try {
-		await sgMail.send(msg);
+		// await sgMail.send(msg);
 	} catch (e) {
 		console.error(e);
 		if (e.response) {
