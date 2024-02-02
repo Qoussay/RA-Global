@@ -5,7 +5,7 @@
 	import InstagramIcon from '~icons/ri/instagram-fill';
 </script>
 
-<section id="ContactInformation" class="px-4 sm:px-12 py-8 bg-secondary-highlight">
+<section id="ContactInformation" class="px-4 sm:px-12 py-8 bg-secondary">
 	<div class="mx-auto max-w-[30rem] lg:max-w-[100rem]">
 		<h1 class="font-bold text-accent text-3xl/tight lg:text-4xl/tight xl:text-5xl/tight lg:w-3/4">
 			Contact Information

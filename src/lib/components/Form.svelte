@@ -19,31 +19,13 @@
 	<h2 class="font-semibold text-xl xl:text-2xl text-primary">Send us a message</h2>
 	<p class="font-medium py-1">We'll get back to you within 24 hours.</p>
 
-	<!-- ALERT -->
-	<div class="mt-5">
-		<div role="alert" class="alert alert-success">
-			<svg
-				xmlns="http://www.w3.org/2000/svg"
-				class="stroke-current shrink-0 h-6 w-6"
-				fill="none"
-				viewBox="0 0 24 24"
-				><path
-					stroke-linecap="round"
-					stroke-linejoin="round"
-					stroke-width="2"
-					d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-				/></svg
-			>
-			<span>Your email has been sent succesfully!</span>
-		</div>
-	</div>
-
 	<!-- input fields  -->
 	<div class="flex flex-col mt-6 space-y-3">
 		<!-- name field  -->
 		<label>
 			Name *
 			<input
+				required
 				type="text"
 				name="name"
 				placeholder="John Doe"
@@ -54,6 +36,7 @@
 		<label>
 			Email *
 			<input
+				required
 				type="email"
 				name="email"
 				placeholder="john@email.com"
@@ -64,6 +47,7 @@
 		<label>
 			Phone *
 			<input
+				required
 				type="text"
 				name="phone"
 				placeholder="(123) 45-6789"
@@ -74,6 +58,7 @@
 		<label>
 			Message *
 			<textarea
+				required
 				class="textarea textarea-bordered textarea-secondary bg-white w-full block rounded-xl mt-1"
 				name="message"
 				placeholder="Message"

@@ -8,5 +8,6 @@ export const actions = {
 		const res = await _res.json();
 
 		console.log('RESPONSE: ', res);
+		return res;
 	}
 };
