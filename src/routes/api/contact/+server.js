@@ -36,7 +36,7 @@ export async function POST({ request }) {
 	};
 
 	try {
-		// await sgMail.send(msg);
+		await sgMail.send(msg);
 	} catch (e) {
 		console.error(e);
 		if (e.response) {
