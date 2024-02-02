@@ -3,7 +3,6 @@ import { error } from '@sveltejs/kit';
 import { emailTemplate } from '$lib/emailTemplate.js';
 import sgMail from '@sendgrid/mail';
 
-console.log('SENDGRID_API_KEY', SENDGRID_API_KEY);
 sgMail.setApiKey(SENDGRID_API_KEY);
 
 export async function POST({ request }) {
