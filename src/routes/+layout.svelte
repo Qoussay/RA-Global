@@ -44,7 +44,7 @@
 		Bridging Borders,<br />Fostering Futures
 	</h1>
 	<div class="mx-auto w-fit">
-		<Button text="Enroll today" nav="/contact" />
+		<Button text="Contact Us" nav="/contact" />
 	</div>
 </section>
 

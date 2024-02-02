@@ -1,1 +1,7 @@
-<h1>Partners page</h1>
+<script>
+	import Hero from '$lib/pageSections/partners/hero.svelte';
+</script>
+
+<main id="PartnersPage">
+	<Hero />
+</main>
