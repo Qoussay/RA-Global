@@ -7,7 +7,7 @@
 	import SupportIcon from '~icons/ri/question-answer-line';
 </script>
 
-<div class="bg-base-300 shadow-md p-5 rounded-lg">
+<div class="bg-base-300 shadow-md p-5 rounded-lg hover:scale-105 duration-200">
 	{#if service.icon === 'student'}
 		<StudentIcon class="w-8 sm:w-10 h-8 sm:h-10 text-secondary" />
 	{:else if service.icon === 'megaphone'}

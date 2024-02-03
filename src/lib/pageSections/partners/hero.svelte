@@ -1,5 +1,6 @@
 <script>
 	import Pill from '$lib/components/Pill.svelte';
+	import Button from '$lib/components/Button.svelte';
 	import ServiceCard from '$lib/components/ServiceCard.svelte';
 	import { text } from '@sveltejs/kit';
 
@@ -45,7 +46,7 @@
 
 <section id="PartnersHero" class="px-4 sm:px-12 my-10">
 	<!-- title and description  -->
-	<div class="mx-auto max-w-[30rem] lg:max-w-[100rem] bg-partnersBg">
+	<div class="mx-auto max-w-[30rem] lg:max-w-[100rem]">
 		<div class="flex flex-col space-y-4 lg:space-y-0 lg:flex-row lg:space-x-12">
 			<!-- title and info  -->
 			<div class="lg:basis-1/2 flex flex-col justify-center">
@@ -59,11 +60,12 @@
 				<h1 class=" font-bold text-secondary text-3xl/tight lg:text-4xl/tight xl:text-5xl/tight">
 					The Education Consultancy Leader in North Africa
 				</h1>
-				<p class="py-2 font-medium text-base xl:text-lg">
+				<p class="py-2 font-medium text-base xl:text-lg mb-3">
 					Become part of RA Global's esteemed university network and elevate your institution's
 					offerings. Expand your reach and enhance student recruitment by leveraging our
 					unparalleled consultancy services.
 				</p>
+				<Button text="Contact us" nav="/contact" />
 			</div>
 			<!-- services provided -->
 			<div class="flex flex-col space-y-4 lg:flex-row lg:space-y-0 lg:space-x-4 lg:basis-1/2">
