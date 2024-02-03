@@ -36,14 +36,14 @@
 </script>
 
 <section id="FAQ" class="pt-20 bg-base-100">
-	<div class="max-w-[60rem] px-8 sm:px-12 mx-auto flex flex-col">
+	<div class="max-w-[60rem] px-4 sm:px-12 mx-auto flex flex-col">
 		<div class="mx-auto max-w-[40rem] lg:max-w-[100rem]">
 			<!-- title -->
 			<h1 class="font-bold text-3xl/snug lg:text-4xl/snug xl:text-5xl/snug text-secondary">
 				Frequently asked questions
 			</h1>
 			<!-- description  -->
-			<p class="font-medium text-base xl:text-lg my-8 lg:w-3/4">
+			<p class="font-medium text-base xl:text-lg my-4 lg:w-3/4">
 				Explore our FAQ section for quick answers to common queries about our services, admissions,
 				and support. Have a question not covered? Feel free to reach out, and we'll be happy to
 				assist you!

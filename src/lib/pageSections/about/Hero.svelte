@@ -3,7 +3,7 @@
 <section id="AboutHero" class="py-8">
 	<!-- title and description  -->
 	<div class="text-center max-w-[40rem] mx-auto px-4 sm:px-12">
-		<h1 class="font-bold text-secondary text-5xl/tight lg:text-6xl/tight py-8">Why RA Global</h1>
+		<h1 class="font-bold text-secondary text-5xl/tight lg:text-6xl/tight py-4">Why RA Global</h1>
 		<p class="font-medium text-base md:text-lg/relaxed xl:text-xl/relaxed">
 			We redefine education through personalized scholarship opportunities, inclusive communities,
 			and unwavering commitment to academic success. We stand as your trusted partner, unlocking
@@ -11,7 +11,7 @@
 		</p>
 	</div>
 	<!-- images  -->
-	<div class="grid grid-cols-2 md:grid-cols-3 max-w-[100rem] mx-auto px-4 sm:px-12 gap-4 py-24">
+	<div class="grid grid-cols-2 md:grid-cols-3 max-w-[100rem] mx-auto px-4 sm:px-12 gap-4 my-16">
 		<img class="w-full h-full order-1" src="/images/about1.png" alt="about one" />
 		<img
 			class="w-full h-full col-span-2 order-3 md:order-2"
@@ -24,7 +24,7 @@
 	</div>
 	<!-- detailed description -->
 	<div
-		class="flex flex-col space-y-12 font-medium text-base/relaxed md:text-lg/loose max-w-[55rem] mx-auto px-4 sm:px-12 pb-12"
+		class="flex flex-col space-y-12 font-medium text-base/relaxed md:text-lg/loose max-w-[55rem] mx-auto px-4 sm:px-12"
 	>
 		<p>
 			At RA Global, we prioritize students' needs. Founded by former students who understand the

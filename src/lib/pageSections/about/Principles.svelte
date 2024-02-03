@@ -24,21 +24,21 @@
 	];
 </script>
 
-<section id="PrinciplesAndValues" class=" px-4 sm:px-12 py-16">
+<section id="PrinciplesAndValues" class="py-16">
 	<div
-		class="flex flex-col space-y-8 lg:flex-row lg:space-y-0 mx-auto max-w-[30rem] lg:max-w-[100rem]"
+		class="flex flex-col space-y-8 lg:flex-row lg:space-y-0 mx-auto max-w-[30rem] lg:max-w-[100rem] px-4 sm:px-12"
 	>
 		<!-- text -->
 		<div class="lg:basis-1/2">
 			<h1 class="text-3xl/snug lg:text-4xl/snug font-bold text-secondary">
 				Our core values and principles
 			</h1>
-			<p class="font-medium text-base/relaxed xl:text-lg/relaxed my-8">
+			<p class="font-medium text-base/relaxed xl:text-lg/relaxed my-4">
 				At RA Global, we are deeply committed to providing personalized guidance and empowering
 				students on their educational journey. Discover a transformative approach that aligns with
 				your academic goals and sets the stage for educational success.
 			</p>
-			<div class="lg:w-3/4 flex flex-col space-y-4">
+			<div class="lg:w-3/4 flex flex-col space-y-4 py-4">
 				{#each principlesArr as p}
 					<div>
 						<div>

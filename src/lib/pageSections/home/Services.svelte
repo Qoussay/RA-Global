@@ -12,8 +12,8 @@
 	];
 </script>
 
-<section id="Services" class="py-20 bg-base-100">
-	<div class="max-w-[100rem] px-8 sm:px-12 mx-auto flex flex-col space-y-12 lg:space-y-0">
+<section id="Services" class="py-14 bg-base-100">
+	<div class="max-w-[100rem] px-4 sm:px-12 mx-auto flex flex-col space-y-12 lg:space-y-0">
 		<!-- geral idea  -->
 		<div
 			class="flex flex-col text-center w-full lg:w-3/4 mx-auto max-w-[40rem] lg:max-w-[100rem] lg:mb-12"
@@ -21,7 +21,7 @@
 			<h1 class="font-bold text-secondary text-3xl/snug lg:text-4xl/snug xl:text-5xl/snug">
 				Empowering Your Academic Journey with Expert Guidance and Opportunities.
 			</h1>
-			<p class="font-medium text-base/relaxed xl:text-lg/relaxed my-8">
+			<p class="font-medium text-base/relaxed xl:text-lg/relaxed my-4">
 				We are your partners in academic excellence, offering personalized services to connect you
 				with tailored scholarship and educational opportunities. Our commitment is to guide you
 				through the process, ensuring you access meaningful learning experiences on your journey to
@@ -51,7 +51,7 @@
 				<h1 class="font-bold text-secondary text-2xl/snug lg:text-3xl/snug xl:text-4xl/snug">
 					Scholarship Opportunities
 				</h1>
-				<p class="font-medium text-base/relaxed xl:text-lg/relaxed my-8">
+				<p class="font-medium text-base/relaxed xl:text-lg/relaxed mt-4 mb-6">
 					At RA Global, we go beyond guidance, dedicating ourselves to steering you toward academic
 					success. Understanding your aspirations, we carefully curate personalized scholarship and
 					educational opportunities, ensuring you access a diverse spectrum that propels your
@@ -78,7 +78,7 @@
 				<h1 class="font-bold text-secondary text-2xl/snug lg:text-3xl/snug xl:text-4xl/snug">
 					Gateway to Academic Success
 				</h1>
-				<p class="font-medium text-base/relaxed xl:text-lg/relaxed my-8">
+				<p class="font-medium text-base/relaxed xl:text-lg/relaxed mt-4 mb-6">
 					We specialize in forging connections with esteemed universities, providing you access to
 					state-of-the-art educational programs. Our expert guidance and tailored support propel you
 					towards a future of unparalleled educational achievement.

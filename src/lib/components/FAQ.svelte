@@ -5,7 +5,7 @@
 	let checked;
 </script>
 
-<div class="collapse collapse-arrow bg-white shadow-md rounded-3xl my-8 py-2 px-4">
+<div class="collapse collapse-arrow bg-white shadow-md rounded-3xl my-6 py-2 px-4">
 	<input id={data.id} type="checkbox" bind:checked />
 
 	<div class="collapse-title text-secondary font-semibold text-base/relaxed xl:text-lg/relaxed">

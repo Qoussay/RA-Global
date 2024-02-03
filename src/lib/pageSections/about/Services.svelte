@@ -3,8 +3,10 @@
 	import { text } from '@sveltejs/kit';
 </script>
 
-<section id="AboutServices" class=" bg-base-200 px-4 sm:px-12 py-8">
-	<div class="mx-auto max-w-[30rem] lg:max-w-[100rem] flex flex-col space-y-14 lg:space-y-24">
+<section id="AboutServices" class=" bg-base-200 py-8">
+	<div
+		class="mx-auto max-w-[30rem] lg:max-w-[100rem] flex flex-col px-4 sm:px-12 space-y-14 lg:space-y-24"
+	>
 		<!-- title -->
 		<div class="mx-auto lg:w-2/3">
 			<h1
@@ -44,7 +46,7 @@
 				<h1 class="text-2xl/tight lg:text-3xl/snug xl:text-4xl/snug font-bold text-secondary">
 					Nurturing Caring and Responsible Global Leaders
 				</h1>
-				<p class="font-medium text-base/relaxed xl:text-lg/relaxed my-8">
+				<p class="font-medium text-base/relaxed xl:text-lg/relaxed my-4">
 					At RA Global, we embark on a mission to shape compassionate and responsible global
 					leaders. Our founders, former students themselves, understand the challenges faced by
 					students in North Africa. We're committed to revolutionizing the educational consultancy
@@ -79,7 +81,7 @@
 				<h1 class="text-2xl/tight lg:text-3xl/snug xl:text-4xl/snug font-bold text-secondary">
 					Providing the Attention They Deserve
 				</h1>
-				<p class="font-medium text-base/relaxed xl:text-lg/relaxed my-8">
+				<p class="font-medium text-base/relaxed xl:text-lg/relaxed my-4">
 					Within RA Global's supportive consultancy ecosystem, each student receives the
 					individualized attention they deserve. Our commitment to empowering students is evident
 					through exclusive partnerships with esteemed universities. We prioritize academic success,
@@ -114,7 +116,7 @@
 				<h1 class="text-2xl/tight lg:text-3xl/snug xl:text-4xl/snug font-bold text-secondary">
 					Comprehensive Support Beyond Academics
 				</h1>
-				<p class="font-medium text-base/relaxed xl:text-lg/relaxed my-8">
+				<p class="font-medium text-base/relaxed xl:text-lg/relaxed my-4">
 					At RA Global, we understand the transformative experience of studying abroad and settling
 					in a new country. Beyond academic guidance, we offer comprehensive support tailored to
 					your unique journey. Whether it's providing academic assistance, offering valuable advice,
@@ -127,12 +129,12 @@
 	</div>
 </section>
 
-<section id="Community" class="bg-neutral px-4 sm:px-12 py-12">
-	<div class="mx-auto max-w-[30rem] lg:max-w-[100rem] text-center">
+<section id="Community" class="bg-neutral py-12">
+	<div class="mx-auto max-w-[30rem] lg:max-w-[100rem] px-4 sm:px-12 text-center">
 		<h1 class="font-bold text-accent text-2xl/snug lg:text-3xl/snug xl:text-4xl/snug my-4">
 			Embracing Community, Cultivating Connections
 		</h1>
-		<p class="text-white lg:w-2/3 lg:mx-auto font-medium text-base/relaxed xl:text-lg/relaxed mt-8">
+		<p class="text-white lg:w-2/3 lg:mx-auto font-medium text-base/relaxed xl:text-lg/relaxed mt-4">
 			At RA Global, we're more than just an educational consultancy – we're a family. Our vibrant
 			and inclusive community brings together individuals from diverse backgrounds, fostering
 			meaningful connections and unforgettable experiences. Join us as we embark on a journey of

@@ -30,7 +30,7 @@
 </script>
 
 <section id="Testimonies" class="py-24 bg-neutral">
-	<div class="max-w-[100rem] px-8 sm:px-12 mx-auto flex flex-col">
+	<div class="max-w-[100rem] px-4 sm:px-12 mx-auto flex flex-col">
 		<!-- general idea  -->
 		<div class="flex flex-col text-center lg:w-3/4 mx-auto max-w-[40rem] lg:max-w-[100rem]">
 			<h1 class="font-bold text-accent text-3xl/snug lg:text-4xl/snug xl:text-5xl/snug">
