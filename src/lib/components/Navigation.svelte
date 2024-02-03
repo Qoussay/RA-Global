@@ -85,7 +85,7 @@
 						</a>
 					</li>
 				{/each}
-				<li class="w-fit mx-auto text-lg">
+				<li class="w-fit mx-auto text-lg" on:click={() => (menuToggled = false)}>
 					<Button text="Enroll today" nav="/contact" />
 				</li>
 			</ul>
