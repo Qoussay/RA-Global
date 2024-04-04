@@ -16,11 +16,11 @@
 				</h1>
 				<p class="font-medium text-base/relaxed xl:text-lg/relaxed mt-4 mb-6">
 					RA Global serves as your dedicated partner in expanding your university's reach and impact
-					across North Africa. With our expertise in targeted marketing and personalized engagement
-					strategies, we connect you with high-potential students eager to explore new educational
-					opportunities. From tailored recruitment campaigns to comprehensive support services, we
-					ensure a seamless transition for students into your institution, fostering long-term
-					success and growth.
+					in Tunisia and across North Africa. With our expertise in targeted marketing and
+					personalized engagement strategies, we connect you with high-potential students eager to
+					explore new educational opportunities. From tailored recruitment campaigns to
+					comprehensive support services, we ensure a seamless transition for students into your
+					institution, fostering long-term success and growth.
 				</p>
 			</div>
 		</div>
@@ -37,10 +37,10 @@
 				</h1>
 				<p class="font-medium text-base/relaxed xl:text-lg/relaxed mt-4 mb-6">
 					Partnering with RA Global means unlocking new avenues for promoting your university's
-					brand and fostering meaningful collaborations in the North African market. Through
-					strategic brand promotion and tailored partnership initiatives, we showcase your
-					institution's unique offerings to a diverse audience of prospective students and
-					stakeholders. Our collaborative events and promotional campaigns provide unparalleled
+					brand and fostering meaningful collaborations in the Tunisian market, and across North
+					Africa. Through strategic brand promotion and tailored partnership initiatives, we
+					showcase your institution's unique offerings to a diverse audience of prospective students
+					and stakeholders. Our collaborative events and promotional campaigns provide unparalleled
 					visibility and opportunities for growth, positioning your university as a leader in
 					education excellence.
 				</p>

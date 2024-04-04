@@ -16,7 +16,7 @@
 				Elevating Asian Universities in North Africa
 			</h1>
 			<p class="font-medium text-base xl:text-lg my-4">
-				We offer dynamic partnerships to leading Asian universities, enhancing their influence in
+				Based in Tunisia, we offer dynamic partnerships to leading Asian universities, enhancing their influence in
 				the vibrant North African market. From tailored marketing strategies to impactful on-ground
 				events, we navigate the educational landscape, redefining academic success together with our
 				partners.

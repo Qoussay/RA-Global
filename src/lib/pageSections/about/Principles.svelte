@@ -2,14 +2,14 @@
 	import CheckCircle from '~icons/tdesign/check-circle-filled';
 	const principlesArr = [
 		{
-			title: 'Student-Centric Focus',
-			description:
-				'Students come first. Our commitment is to provide personalized guidance, ensuring each student accesses the best education tailored to their needs.'
-		},
-		{
 			title: 'Revolutionizing Education Consultancy',
 			description:
-				'Founded by former students, we redefine the industry narrative, prioritizing individualized attention and free-of-charge services for every student.'
+				'We strive to redefine the industry narrative by bringing a student-centric approach. Our focus is on prioritizing individualized attention and providing comprehensive services to every student.'
+		},
+		{
+			title: 'Empowering Educational Access',
+			description:
+				'RA Global is dedicated to empowering educational access for students in Tunisia and beyond. Through tailored guidance and partnerships, we strive to ensure that every student has the opportunity to pursue their academic aspirations.'
 		},
 		{
 			title: 'Diversity and Inclusion Advocacy',

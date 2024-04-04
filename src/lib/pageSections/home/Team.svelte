@@ -24,7 +24,7 @@
 				Meet the faces behind RA Global
 			</h1>
 			<p class="font-medium text-base/relaxed xl:text-lg/relaxed my-4">
-				We bring professionalism and dedication to redefine education consultancy. Our mission is to
+				We bring professionalism and dedication to redefine education consultancy in Tunisia. Our mission is to
 				revolutionize the industry and set new standards, taking North Africa on an extraordinary
 				journey toward academic excellence.
 			</p>

@@ -28,9 +28,9 @@
 		},
 		{
 			id: 'faq5',
-			question: "Q: Is there a cost for RA Global's application support services?",
+			question: "Q: How does RA Global assist students in adapting to a new academic environment and culture?",
 			answer:
-				"A: No, RA Global's application support services are entirely free of charge. Our commitment is to provide accessible and comprehensive assistance to students seeking educational opportunities."
+				"A: At RA Global, we understand the challenges of transitioning to a new country for education. That's why we have a dedicated team based in Malaysia, ready to provide personalized support and guidance to help students adapt smoothly to their new academic environment and culture. Additionally, our vibrant community of students offers a welcoming atmosphere and peer-to-peer support, ensuring newcomers feel supported and connected from day one."
 		}
 	];
 </script>
