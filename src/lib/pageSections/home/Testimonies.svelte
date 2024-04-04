@@ -4,6 +4,8 @@
 	const studentTestimonies = [
 		{
 			name: 'Karimene Turki',
+			location: 'Tunisia',
+			program: 'Bachelor of Engineering',
 			image: 'karimene.jpg',
 			stars: 5,
 			quote:
@@ -12,6 +14,8 @@
 		},
 		{
 			name: 'Adem Ghanmi',
+			location: 'Tunisia',
+			program: 'Bachelor of Engineering',
 			image: 'adem.jpg',
 			stars: 5,
 			quote:
@@ -20,6 +24,8 @@
 		},
 		{
 			name: 'Shathe Khalouaoui',
+			location: 'Tunisia',
+			program: 'Bachelor of Engineering',
 			image: 'shathe.jpg',
 			stars: 5,
 			quote:

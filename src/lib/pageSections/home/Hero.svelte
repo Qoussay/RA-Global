@@ -18,8 +18,8 @@
 				Bridging Borders,<br />Fostering Futures
 			</h1>
 			<p class="lg:w-3/4 my-4 font-medium text-base/relaxed xl:text-lg/relaxed mx-auto lg:mx-0">
-				RA Global leads North Africa in connecting students to educational opportunities in Asia. As
-				the key link between these regions, we provide personalized education, emphasizing
+				Based in Tunisia, RA Global leads North Africa in connecting students to educational opportunities in Asia. As
+				the key link between these regions, we provide personalized education guidance, emphasizing
 				individual strengths and fostering academic excellence.
 			</p>
 			<div>

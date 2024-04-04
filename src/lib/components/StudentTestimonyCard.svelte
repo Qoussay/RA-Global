@@ -10,6 +10,7 @@
 		alt="student profile"
 	/>
 	<h1 class="text-lg xl:text-xl font-semibold text-secondary mt-4">{testimony.name}</h1>
+	<p><em>{testimony.location}</em></p>
 	<div class="flex space-x-1 mt-2 justify-center md:justify-start">
 		{#each Array(testimony.stars) as _, i}
 			<Star class="2xl:w-5 2xl:h-5 w-4 h-4 text-accent" />

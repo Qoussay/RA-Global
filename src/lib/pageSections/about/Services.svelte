@@ -44,15 +44,16 @@
 			<div class="lg:basis-1/2 my-auto">
 				<Pill text="Compassionate. Visionary. Empowering." />
 				<h1 class="text-2xl/tight lg:text-3xl/snug xl:text-4xl/snug font-bold text-secondary">
-					Nurturing Caring and Responsible Global Leaders
+					Cultivating Compassionate and Visionary Leaders
 				</h1>
 				<p class="font-medium text-base/relaxed xl:text-lg/relaxed my-4">
-					At RA Global, we embark on a mission to shape compassionate and responsible global
-					leaders. Our founders, former students themselves, understand the challenges faced by
-					students in North Africa. We're committed to revolutionizing the educational consultancy
-					scene, ensuring every student receives the best guidance and support for a well-rounded
-					education. Our services, driven by empathy and vision, are entirely free, reflecting our
-					dedication to putting students' needs first.
+					At RA Global, we are dedicated to nurturing compassionate and visionary leaders with a
+					global perspective. Our founders, who once navigated the educational challenges in North
+					Africa, bring a deep understanding of the region's unique dynamics. With a commitment to
+					revolutionizing the educational consultancy landscape, we strive to provide students in
+					Tunisia and beyond with unparalleled guidance and support for their educational journey.
+					Our services are driven by empathy and foresight, reflecting our unwavering dedication to
+					prioritizing students' needs above all else.
 				</p>
 			</div>
 		</div>
@@ -79,15 +80,17 @@
 			<div class="lg:basis-1/2 my-auto">
 				<Pill text="Supportive Ecosystem" />
 				<h1 class="text-2xl/tight lg:text-3xl/snug xl:text-4xl/snug font-bold text-secondary">
-					Providing the Attention They Deserve
+					Elevating Educational Experiences Through Personalized Support
 				</h1>
 				<p class="font-medium text-base/relaxed xl:text-lg/relaxed my-4">
-					Within RA Global's supportive consultancy ecosystem, each student receives the
-					individualized attention they deserve. Our commitment to empowering students is evident
-					through exclusive partnerships with esteemed universities. We prioritize academic success,
-					and our consultancy services extend beyond mere advice to securing scholarships of up to
-					100%. Choose RA Global for an educational journey where personalized attention ensures
-					your aspirations are nurtured in a conducive learning environment.
+					At RA Global, we believe in providing each student with the personalized attention they
+					deserve within our supportive consultancy ecosystem. Through our exclusive partnerships
+					with renowned universities, we are committed to empowering students to achieve academic
+					excellence. Our dedication goes beyond traditional advisory services – we actively strive
+					to secure scholarships covering up to 100% of tuition fees, ensuring that financial
+					constraints never hinder your educational ambitions. Choose RA Global for an educational
+					journey where tailored support fosters an environment conducive to realizing your
+					aspirations.
 				</p>
 			</div>
 		</div>
@@ -114,15 +117,16 @@
 			<div class="lg:basis-1/2 my-auto">
 				<Pill text="Empowering Your Journey Abroad" />
 				<h1 class="text-2xl/tight lg:text-3xl/snug xl:text-4xl/snug font-bold text-secondary">
-					Comprehensive Support Beyond Academics
+					Comprehensive Support for Your Educational Journey
 				</h1>
 				<p class="font-medium text-base/relaxed xl:text-lg/relaxed my-4">
-					At RA Global, we understand the transformative experience of studying abroad and settling
-					in a new country. Beyond academic guidance, we offer comprehensive support tailored to
-					your unique journey. Whether it's providing academic assistance, offering valuable advice,
-					or organizing engaging trips and activities, we're committed to easing your transition and
-					empowering your success. With RA Global, embark on your educational journey with
-					confidence, knowing that you're not alone – we're here for you every step of the way.
+					At RA Global, we recognize the profound impact of studying abroad and the challenges of
+					acclimating to a new environment. Our commitment extends beyond academic support,
+					encompassing a comprehensive range of services tailored to your individual journey. From
+					academic guidance to invaluable advice and curated experiences such as trips and
+					activities, we are dedicated to smoothing your transition and facilitating your success.
+					With RA Global by your side, embark on your educational journey with confidence, reassured
+					by the knowledge that you have a dedicated partner supporting you at every turn.
 				</p>
 			</div>
 		</div>
@@ -134,7 +138,7 @@
 		<h1 class="font-bold text-accent text-2xl/snug lg:text-3xl/snug xl:text-4xl/snug my-4">
 			Embracing Community, Cultivating Connections
 		</h1>
-		<p class="text-white lg:w-2/3 lg:mx-auto font-medium text-base/relaxed xl:text-lg/relaxed mt-4">
+		<p class="text-white lg:w-2/3 lg:mx-auto text-base/relaxed xl:text-lg/relaxed mt-4">
 			At RA Global, we're more than just an educational consultancy – we're a family. Our vibrant
 			and inclusive community brings together individuals from diverse backgrounds, fostering
 			meaningful connections and unforgettable experiences. Join us as we embark on a journey of
