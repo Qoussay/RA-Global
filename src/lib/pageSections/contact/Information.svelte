@@ -15,40 +15,44 @@
 		</p>
 		<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 my-8">
 			<!-- email  -->
-			<div class="grid grid-cols-4 py-5 bg-base-100 rounded-2xl text-secondary-highlight">
-				<MailIcon
-					class="col-span-1 w-11 xl:w-12 h-11 xl:h-12 p-3 rounded-2xl bg-base-300 mx-auto shadow-md"
-				/>
-				<div class=" col-span-3">
+			<div
+				class="flex flex-row items-center gap-4 px-4 py-5 bg-base-100 rounded-2xl text-secondary-highlight"
+			>
+				<MailIcon class="w-11 xl:w-12 h-11 xl:h-12 p-3 rounded-2xl bg-base-300 shadow-md" />
+				<div class="">
 					<p class="font-semibold text-lg lg:text-xl">Email</p>
-					<p class="py-1 text-base lg:text-lg">info@raglobal.tn</p>
+					<a href="mailto:info@raglobal.tn" class="py-1 text-base lg:text-lg">info@raglobal.tn</a>
 				</div>
 			</div>
-			<div class="grid grid-cols-4 py-5 bg-base-100 rounded-2xl text-secondary-highlight">
-				<PhoneIcon
-					class="col-span-1 w-11 xl:w-12 h-11 xl:h-12 p-3 rounded-2xl bg-base-300 mx-auto shadow-md"
-				/>
-				<div class=" col-span-3">
-					<p class="font-semibold text-lg lg:text-xl">Call us</p>
-					<p class="py-1 text-base lg:text-lg">+216-48 063 544</p>
+			<div
+				class="flex flex-row items-center gap-4 px-4 py-5 bg-base-100 rounded-2xl text-secondary-highlight"
+			>
+				<PhoneIcon class="w-11 xl:w-12 h-11 xl:h-12 p-3 rounded-2xl bg-base-300 shadow-md" />
+				<div class="">
+					<p class="font-semibold text-lg lg:text-xl">Whatsapp</p>
+					<a href="https://wa.me/+21648063544" class="py-1 text-base lg:text-lg">+216-48 063 544</a>
 				</div>
 			</div>
-			<div class="grid grid-cols-4 py-5 bg-base-100 rounded-2xl text-secondary-highlight">
-				<FacebookIcon
-					class="col-span-1 w-11 xl:w-12 h-11 xl:h-12 p-3 rounded-2xl bg-base-300 mx-auto shadow-md"
-				/>
-				<div class=" col-span-3">
+			<div
+				class="flex flex-row items-center gap-4 px-4 py-5 bg-base-100 rounded-2xl text-secondary-highlight"
+			>
+				<FacebookIcon class="w-11 xl:w-12 h-11 xl:h-12 p-3 rounded-2xl bg-base-300 shadow-md" />
+				<div class="">
 					<p class="font-semibold text-lg lg:text-xl">Facebook</p>
-					<p class="py-1 text-base lg:text-lg">RA Global</p>
+					<a href="https://www.facebook.com/raglobal.tn" class="py-1 text-base lg:text-lg"
+						>RA Global</a
+					>
 				</div>
 			</div>
-			<div class="grid grid-cols-4 py-5 bg-base-100 rounded-2xl text-secondary-highlight">
-				<InstagramIcon
-					class="col-span-1 w-11 xl:w-12 h-11 xl:h-12 p-3 rounded-2xl bg-base-300 mx-auto shadow-md"
-				/>
-				<div class=" col-span-3">
+			<div
+				class="flex flex-row items-center gap-4 px-4 py-5 bg-base-100 rounded-2xl text-secondary-highlight"
+			>
+				<InstagramIcon class="w-11 xl:w-12 h-11 xl:h-12 p-3 rounded-2xl bg-base-300 shadow-md" />
+				<div class="">
 					<p class="font-semibold text-lg lg:text-xl">Instagram</p>
-					<p class="py-1 text-base lg:text-lg">raglobal.tn</p>
+					<a href="https://www.instagram.com/raglobal.tn/" class="py-1 text-base lg:text-lg"
+						>raglobal.tn</a
+					>
 				</div>
 			</div>
 		</div>

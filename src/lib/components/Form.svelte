@@ -28,7 +28,7 @@
 				required
 				type="text"
 				name="name"
-				placeholder="John Doe"
+				placeholder="Mohsen elWral"
 				class="input input-bordered input-secondary bg-white w-full block rounded-xl mt-1"
 			/>
 		</label>
@@ -39,7 +39,7 @@
 				required
 				type="email"
 				name="email"
-				placeholder="john@email.com"
+				placeholder="elwral@email.com"
 				class="input input-bordered input-secondary bg-white w-full block rounded-xl mt-1"
 			/>
 		</label>
