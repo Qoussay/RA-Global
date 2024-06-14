@@ -31,6 +31,14 @@
 	];
 </script>
 
+<svelte:head>
+	<!-- This site is converting visitors into subscribers and customers with https://respond.io --><!-- This site is converting visitors into subscribers and customers with https://respond.io -->
+	<script
+		id="respondio__growth_tool"
+		src="https://cdn.respond.io/widget/widget.js?wId=9e9ab37f-1ebc-49b4-85ef-7fa993cf3524"
+	></script><!-- https://respond.io -->
+</svelte:head>
+
 <Navbar />
 
 <slot />
