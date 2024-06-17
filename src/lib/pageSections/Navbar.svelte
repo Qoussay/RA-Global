@@ -15,8 +15,8 @@
 			</a>
 
 			<div class="lg:flex lg:flex-row lg:space-x-12 hidden">
-				<ContactInfo type="email" />
 				<ContactInfo type="phone" />
+				<ContactInfo />
 			</div>
 		</div>
 		<!-- navigation links  -->

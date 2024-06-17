@@ -56,6 +56,18 @@
 				</div>
 			</div>
 		</div>
+		<!-- EMBED  -->
+		<div class=" border-base-300 bottom-2 rounded-lg">
+			<iframe
+				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d302.63769336582857!2d10.205974932671436!3d36.727832107833684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12fd377c1d91749f%3A0x32968dba21ecd38c!2sAcademy%20Scientific%20And%20Literary!5e0!3m2!1sen!2stn!4v1718635488590!5m2!1sen!2stn"
+				title="Location"
+				height="550"
+				style="border: 3px solid #FFF6EB;  border-radius: 16px; width: 100%"
+				allowfullscreen=""
+				loading="lazy"
+				referrerpolicy="no-referrer-when-downgrade"
+			></iframe>
+		</div>
 	</div>
 </section>
 

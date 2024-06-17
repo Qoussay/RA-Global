@@ -33,6 +33,9 @@
 
 <svelte:head>
 	<!-- This site is converting visitors into subscribers and customers with https://respond.io --><!-- This site is converting visitors into subscribers and customers with https://respond.io -->
+	<!-- This site is converting visitors into subscribers and customers with https://respond.io -->
+	<!-- This site is converting visitors into subscribers and customers with https://respond.io -->
+	<!-- This site is converting visitors into subscribers and customers with https://respond.io -->
 	<script
 		id="respondio__growth_tool"
 		src="https://cdn.respond.io/widget/widget.js?wId=9e9ab37f-1ebc-49b4-85ef-7fa993cf3524"
@@ -58,7 +61,7 @@
 
 <!-- footer  -->
 <footer class="bg-base-200 pb-8 pt-12 px-4 lg:px-8 font-medium">
-	<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+	<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-0 gap-y-8">
 		<!-- brand logo and social links  -->
 		<div class="md:col-span-2">
 			<img src="/images/fullRed.png" alt="brand logo" class="w-40 lg:w-44" />
@@ -94,7 +97,7 @@
 		<div>
 			<h1 class="text-secondary font-semibold text-base lg:text-lg">Contact us</h1>
 			<div class="flex flex-col space-y-4 xl:space-y-8 mt-4 xl:mt-8">
-				<ContactInfo type="email" />
+				<ContactInfo />
 				<ContactInfo type="phone" />
 			</div>
 		</div>
