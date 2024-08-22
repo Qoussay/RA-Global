@@ -26,7 +26,7 @@
 		<div>
 			<p class="text-sm xl:text-base font-bold text-primary">Address</p>
 			<a href="https://wa.me/+21648063544" class="text-sm xl:text-base font-medium"
-				>13, AV. Haramayan Charifayn, Mourouj 3</a
+				>Bloc A, Pacha Centre, Av. Kheireddine Pacha</a
 			>
 		</div>
 	{/if}

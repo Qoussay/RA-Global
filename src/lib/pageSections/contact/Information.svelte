@@ -59,7 +59,7 @@
 		<!-- EMBED  -->
 		<div class=" border-base-300 bottom-2 rounded-lg">
 			<iframe
-				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d302.63769336582857!2d10.205974932671436!3d36.727832107833684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12fd377c1d91749f%3A0x32968dba21ecd38c!2sAcademy%20Scientific%20And%20Literary!5e0!3m2!1sen!2stn!4v1718635488590!5m2!1sen!2stn"
+				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d798.4591538080762!2d10.19205742849442!3d36.82243489825783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8b07d0809ea2bb57%3A0xc30ef22272097b22!2sRA%20Global!5e0!3m2!1sen!2stn!4v1724321889723!5m2!1sen!2stn"
 				title="Location"
 				height="550"
 				style="border: 3px solid #FFF6EB;  border-radius: 16px; width: 100%"
