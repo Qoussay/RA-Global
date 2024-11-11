@@ -1,5 +1,5 @@
 <script>
-	import '../app.css';
+	import '../../app.css';
 	import Navbar from '$lib/pageSections/Navbar.svelte';
 	import Button from '$lib/components/Button.svelte';
 	import ContactInfo from '$lib/components/ContactInfo.svelte';
@@ -33,6 +33,7 @@
 
 <svelte:head>
 	<!-- This site is converting visitors into subscribers and customers with https://respond.io --><!-- This site is converting visitors into subscribers and customers with https://respond.io -->
+	<!-- This site is converting visitors into subscribers and customers with https://respond.io -->
 	<!-- This site is converting visitors into subscribers and customers with https://respond.io -->
 	<!-- This site is converting visitors into subscribers and customers with https://respond.io -->
 	<!-- This site is converting visitors into subscribers and customers with https://respond.io -->
