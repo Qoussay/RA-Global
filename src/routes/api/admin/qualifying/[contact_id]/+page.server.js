@@ -15,7 +15,12 @@ export async function load({ params }) {
 	try {
 		const response = await fetch(url, options);
 		const data = await response.json();
-		console.log(data);
+		data.custom_fields = await data.custom_fields.reduce((acc, field) => {
+			acc[field.name] = field.value;
+			return acc;
+		}, {});
+		// console.log(data);
+		// data.custom_fields = customFieldsObject;
 		return data;
 	} catch (err) {
 		console.error(err);
