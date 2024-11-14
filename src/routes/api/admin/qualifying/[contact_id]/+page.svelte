@@ -21,9 +21,10 @@
 	let q9 = 0;
 
 	$: eligible = eligibility_q1 && eligibility_q2 && eligibility_q3 ? 'Yes' : 'No';
-	$: qualifying_score = parseFloat(
-		(((q1 + q2 + q3 + q4 + q5 + q6 + q7 + q8 + q9) / 9) * 10).toFixed(2)
-	);
+	$: qualifying_score =
+		eligibility_q1 && eligibility_q2 && eligibility_q3
+			? parseFloat((((q1 + q2 + q3 + q4 + q5 + q6 + q7 + q8 + q9) / 9) * 10).toFixed(2))
+			: 0;
 
 	async function handleSubmit() {
 		try {
