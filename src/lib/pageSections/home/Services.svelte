@@ -23,19 +23,15 @@
 			</h1>
 
 			<!-- VSL  -->
-			<div class="mx-auto my-12">
-				<video
-					class="w-full rounded-lg"
-					src="/videos/vsl.mp4"
-					controls
-					loop
-					muted
-					playsinline
-					preload="auto"
-					type="video/mp4"
-				>
-					Your browser does not support the video tag.
-				</video>
+			<div class="relative w-full pb-[56.25%] my-12">
+				<iframe
+					class="absolute top-0 left-0 w-full h-full rounded-lg"
+					src="https://www.youtube.com/embed/7rJetsTvuQo"
+					title="RA Global - VSL"
+					frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+					allowfullscreen
+				></iframe>
 			</div>
 
 			<p class="font-medium text-base/relaxed xl:text-lg/relaxed my-4">
