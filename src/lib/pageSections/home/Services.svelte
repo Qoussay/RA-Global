@@ -21,6 +21,19 @@
 			<h1 class="font-bold text-secondary text-3xl/snug lg:text-4xl/snug xl:text-5xl/snug">
 				Empowering Your Academic Journey with Expert Guidance and Opportunities.
 			</h1>
+
+			<!-- VSL  -->
+			<div class="relative w-full pb-[56.25%] my-12">
+				<iframe
+					class="absolute top-0 left-0 w-full h-full rounded-lg"
+					src="https://www.youtube.com/embed/7rJetsTvuQo"
+					title="RA Global - VSL"
+					frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+					allowfullscreen
+				></iframe>
+			</div>
+
 			<p class="font-medium text-base/relaxed xl:text-lg/relaxed my-4">
 				We are your partners in academic excellence, offering personalized services to connect you
 				with tailored scholarship and educational opportunities. Our commitment is to guide you
