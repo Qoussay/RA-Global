@@ -4,7 +4,7 @@
 			class="grid grid-cols-1 md:grid-cols-3 gap-16 justify-items-center font-bold text-4xl lg:text-5xl xl:text-6xl"
 		>
 			<div class="text-center">
-				<h1 class="text-accent">30+</h1>
+				<h1 class="text-accent">130+</h1>
 				<p class="font-medium text-base lg:text-lg my-2">
 					Students trusted RA Global and started their education with our partners
 				</p>

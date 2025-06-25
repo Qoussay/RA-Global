@@ -21,6 +21,23 @@
 			<h1 class="font-bold text-secondary text-3xl/snug lg:text-4xl/snug xl:text-5xl/snug">
 				Empowering Your Academic Journey with Expert Guidance and Opportunities.
 			</h1>
+
+			<!-- VSL  -->
+			<div class="mx-auto my-12">
+				<video
+					class="w-full rounded-lg"
+					src="/videos/vsl.mp4"
+					controls
+					loop
+					muted
+					playsinline
+					preload="auto"
+					type="video/mp4"
+				>
+					Your browser does not support the video tag.
+				</video>
+			</div>
+
 			<p class="font-medium text-base/relaxed xl:text-lg/relaxed my-4">
 				We are your partners in academic excellence, offering personalized services to connect you
 				with tailored scholarship and educational opportunities. Our commitment is to guide you
