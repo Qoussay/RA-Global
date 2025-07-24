@@ -18,7 +18,7 @@
 		<div>
 			<p class="text-sm xl:text-base font-bold text-secondary">Whatsapp</p>
 			<a href="https://wa.me/+21648063544" class="text-sm xl:text-base font-medium"
-				>+216-48 063 544</a
+				>+216-48 063 955</a
 			>
 		</div>
 	{:else}

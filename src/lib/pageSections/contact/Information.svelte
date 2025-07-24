@@ -30,7 +30,7 @@
 				<PhoneIcon class="w-11 xl:w-12 h-11 xl:h-12 p-3 rounded-2xl bg-base-300 shadow-md" />
 				<div class="">
 					<p class="font-semibold text-lg lg:text-xl">Whatsapp</p>
-					<a href="https://wa.me/+21648063544" class="py-1 text-base lg:text-lg">+216-48 063 544</a>
+					<a href="https://wa.me/+21648063544" class="py-1 text-base lg:text-lg">+216-48 063 955</a>
 				</div>
 			</div>
 			<div
