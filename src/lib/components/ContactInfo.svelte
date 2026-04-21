@@ -17,7 +17,7 @@
 		<PhoneIcon class="w-10 xl:w-11 h-10 xl:h-11 p-3 rounded-2xl bg-secondary text-white my-auto" />
 		<div>
 			<p class="text-sm xl:text-base font-bold text-secondary">Whatsapp</p>
-			<a href="https://wa.me/+21648063544" class="text-sm xl:text-base font-medium"
+			<a href="https://wa.me/+21648063955" class="text-sm xl:text-base font-medium"
 				>+216-48 063 955</a
 			>
 		</div>
@@ -25,7 +25,7 @@
 		<MapIcon class="w-10 xl:w-11 h-10 xl:h-11 p-3 rounded-2xl bg-primary text-white my-auto" />
 		<div>
 			<p class="text-sm xl:text-base font-bold text-primary">Address</p>
-			<a href="https://wa.me/+21648063544" class="text-sm xl:text-base font-medium"
+			<a href="https://wa.me/+21648063955" class="text-sm xl:text-base font-medium"
 				>Bloc A, Pacha Centre, Av. Kheireddine Pacha</a
 			>
 		</div>
